@@ -1,0 +1,41 @@
+a:1:{s:10:"__output__";s:1159:"<div class="right-widget"><div class="right-heading"><h3>Twitter</h3><span></span></div><div class="clear"></div>			<script type="text/javascript">
+
+					new TWTR.Widget({
+						version: 2,
+						type: 'search',
+                        search: 'sypulse',
+						rpp: 10,
+						interval: 5000,
+                        title: '',
+                        subject: '',
+						width: 'auto',
+						height: 225,
+						footer: '',
+
+						theme: {
+							shell: {
+								background: '#1f1212',
+								color: '#999999'
+									},
+							tweets: {
+								background: '#ffffff',
+								color: '#444444',
+								links: '#1986b5'
+									}
+								},
+						features: {
+							avatars: true, // defaults to false for profile widget, but true for search & faves widget
+							hashtags: true,
+                            toptweets: true,
+							timestamp: true,
+							fullscreen: false, // ignores width and height and just goes full screen
+							scrollbar: false,
+							live: true,
+							loop: true,
+							behavior: 'default',
+							dateformat: 'relative' // defaults to relative/absolute (eg: 3 minutes ago)
+					}}).render().start();
+			
+			</script>
+		
+	</div>";}

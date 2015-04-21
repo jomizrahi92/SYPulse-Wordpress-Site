@@ -1,0 +1,100 @@
+
+body { 
+	font: 13px "Helvetica", Helvetica, Geneva, Arial, sans-serif;
+	color: #333333;
+			background: #CCCCCC url( http://sypulse.org/wordpress/wp-content/plugins/wptouch-pro/themes/classic/iphone/images/backgrounds/ipad-thatch-light.png ) repeat 0 0; 
+	}
+
+#header { 
+	background-image: url(http://sypulse.org/wordpress/wp-content/plugins/wptouch-pro/themes/classic/iphone/images/glossy.png); 
+	font: 19px "Helvetica-Bold", Helvetica, Geneva, Arial, sans-serif;
+}
+
+a, .off.active, .on.active { color: #006bb3; }
+
+.post h2, .post h2 a { color: #333333; font: 15px "Helvetica-Bold", Helvetica, Geneva, Arial, sans-serif; }
+
+#content .content, #content .page .content, #content .post.single { font: 14px "Helvetica", Helvetica, Geneva, Arial, sans-serif; }
+
+#respond h3,
+p.nocomments,
+#respond p,
+form#commentform p,
+#loading p,
+form#commentform label,
+.archive-text,
+.linkcat h2,
+h2.wptouch-archives,
+h2.iphone-list,
+ul.iphone-list li span {
+	color: #475d79;
+	text-shadow: #fff 0 1px 0;
+}
+
+#respond h3,
+p.nocomments,
+#respond p,
+form#commentform p,
+#loading p,
+form#commentform label,
+.archive-text,
+.linkcat h2,
+h2.wptouch-archives,
+h2.iphone-list,
+.load-more-link,
+ul.iphone-list li span, 
+.footer {
+	text-shadow: #fff 0 1px 0;
+}
+
+
+.cal-colors .cal-month.m-1 {
+	background-color: #767c8f;
+}
+
+.cal-colors .cal-month.m-2 {
+	background-color: #345abe;
+}
+
+.cal-colors .cal-month.m-3 {
+	background-color: #37838d;
+}
+
+.cal-colors .cal-month.m-4 {
+	background-color: #55b06c;
+}
+
+.cal-colors .cal-month.m-5 {
+	background-color: #409ad5;
+}
+
+.cal-colors .cal-month.m-6 {
+	background-color: #be63c5;
+}
+
+.cal-colors .cal-month.m-7 {
+	background-color: #f79445;
+}
+
+.cal-colors .cal-month.m-8 {
+	background-color: #4e1e00;
+}
+
+.cal-colors .cal-month.m-9 {
+	background-color: #a04262;
+}
+
+.cal-colors .cal-month.m-10 {
+	background-color: #284461;
+}
+
+.cal-colors .cal-month.m-11 {
+	background-color: #4d1d77;
+}
+
+.cal-colors .cal-month.m-12 {
+	background-color: #af1919;
+}
+
+
+.footer { color: #666666; }

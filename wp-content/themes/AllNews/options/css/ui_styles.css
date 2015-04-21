@@ -1,0 +1,90 @@
+/* common styles */
+.gf-form label
+{
+    font: normal normal 11px/13px Arial, Sans-serif;
+    color: #000;
+    cursor: pointer;
+}
+
+.gf-form label,
+.gf-checkbox input[type="checkbox"] + label::before,
+.gf-radio input[type="radio"] + label::before
+{
+    vertical-align: middle;
+}
+
+/* hide the checkboxes and radios */
+.gf-checkbox input[type="checkbox"],
+.gf-radio input[type="radio"]
+{
+    position: absolute;
+    opacity: 0;
+}
+
+/* we use generated content to create a placeholder for the checkbox and the radio */
+.gf-checkbox input[type="checkbox"] + label::before,
+.gf-radio input[type="radio"] + label::before
+{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    margin: 0 8px 0 0;
+    background: url("images/sprite-radio-checkbox.png") no-repeat 0 0;
+    vertical-align: middle;
+}
+
+/* disabled checkbox or radio */
+.gf-form input[type="checkbox"]:disabled + label,
+.gf-form input[type="radio"]:disabled + label
+{
+    opacity: .5;
+    cursor: default; /* or cursor: no-drop */
+}
+
+/* hover checkbox (unselected state only) */
+.gf-checkbox input[type="checkbox"]:not(:checked):hover + label::before
+{
+    background-position: 0 -13px;
+}
+
+/* selected checkbox */
+.gf-checkbox input[type="checkbox"]:checked + label::before
+{
+    background-position: 0 -26px;
+}
+
+/* normal state radio */
+.gf-radio input[type="radio"] + label::before
+{
+    background-position: -13px 0;
+}
+
+/* radio hover (unselected state only) */
+.gf-radio input[type="radio"]:hover + label::before
+{
+    background-position: -13px -13px;
+}
+
+/* selected radio */
+.gf-radio input[type="radio"]:checked + label::before
+{
+    background-position: -13px -26px;
+}
+
+/* focused checkbox or radio */
+.gf-form input[type="checkbox"]:focus + label,
+.gf-form input[type="radio"]:focus + label
+{
+    outline: dotted 1px; /* by not adding color to the value we force the use of system's default focus color "invert" */
+}
+
+/* older versions of internet explorer do not support either generated content, so we display the system checkboxes and radio buttons */
+@media \0screen {
+    .gf-checkbox input[type="checkbox"],
+    .gf-radio input[type="radio"] 
+        {
+        position: static;
+    }
+}

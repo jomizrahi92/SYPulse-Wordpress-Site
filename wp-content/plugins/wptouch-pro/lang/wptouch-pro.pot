@@ -1,0 +1,4382 @@
+# Translation of the WordPress plugin WPtouch Pro 2.8.2 by Dale Mugford & Duane Storey (BraveNewCode).
+# Copyright (C) 2013 Dale Mugford & Duane Storey (BraveNewCode)
+# This file is distributed under the same license as the WPtouch Pro package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WPtouch Pro 2.8.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wptouch-pro\n"
+"POT-Creation-Date: 2013-01-30 13:01-0500\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. #-#-#-#-#  wptouch-pro.pot (WPtouch Pro 2.8.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/admin-panel.php:9 admin/admin-panel.php:10
+msgid "WPtouch Pro"
+msgstr ""
+
+#: admin/admin-panel.php:33 admin/admin-panel.php:34
+#: include/classes/wptouch-pro.php:1270 themes/skeleton/root-functions.php:125
+msgid "Settings"
+msgstr ""
+
+#: admin/admin-panel.php:79
+msgid "Auto-detect"
+msgstr ""
+
+#: admin/admin-panel.php:101
+msgid "Settings saved!"
+msgstr ""
+
+#: admin/admin-panel.php:105
+msgid "Defaults restored"
+msgstr ""
+
+#: admin/admin-panel.php:111
+msgid "Mobile"
+msgstr ""
+
+#: admin/admin-panel.php:122 admin/html/settings/tablet-user-agents.php:8
+msgid "iPad"
+msgstr ""
+
+#: admin/admin-panel.php:141
+msgid "Warnings or Conflicts"
+msgstr ""
+
+#: admin/admin-panel.php:145
+msgid "Theme &amp; Page Compatibility"
+msgstr ""
+
+#: admin/admin-panel.php:146
+msgid ""
+"Include functions.php from the active desktop theme (not needed usually)"
+msgstr ""
+
+#: admin/admin-panel.php:146
+msgid ""
+"This option will include and load the functions.php from the active "
+"WordPress theme.  This may be required for themes with custom field features "
+"like post images, etc., but should not be used most of the time."
+msgstr ""
+
+#: admin/admin-panel.php:150
+msgid "Method to use when included functions.php"
+msgstr ""
+
+#: admin/admin-panel.php:151
+msgid ""
+"The direct method loads functions.php directly, and is the recommended "
+"option.  If that method fails, an alternative method is provided which "
+"attempts to clean up the functions.php for inclusion - this method requires "
+"write access to your desktop theme directory and will cause hidden files to "
+"be written there."
+msgstr ""
+
+#: admin/admin-panel.php:153
+msgid "Include file directly"
+msgstr ""
+
+#: admin/admin-panel.php:154
+msgid "Translate constants and create new files"
+msgstr ""
+
+#: admin/admin-panel.php:157
+msgid "Convert permalinks into internal URLs"
+msgstr ""
+
+#: admin/admin-panel.php:157
+msgid ""
+"This option reduces the loading time for pages, but may cause issues with "
+"the menu when permalinks are non-standard or on another domain."
+msgstr ""
+
+#: admin/admin-panel.php:158
+msgid "Remove these shortcodes when WPtouch Pro is active"
+msgstr ""
+
+#: admin/admin-panel.php:158
+msgid "Enter a comma separated list of shortcodes to remove."
+msgstr ""
+
+#: admin/admin-panel.php:160
+msgid "Do not use WPtouch Pro on these URLs/Pages"
+msgstr ""
+
+#: admin/admin-panel.php:160
+msgid ""
+"Each permalink URL fragment should be on its own line and relative, e.g. \"/"
+"about\" or \"/products/store\""
+msgstr ""
+
+#: admin/admin-panel.php:161
+msgid "Allow BuddyPress Mobile AJAX to bypass WPtouch Pro"
+msgstr ""
+
+#: admin/admin-panel.php:164
+msgid "Plugin Compatibility"
+msgstr ""
+
+#: admin/admin-panel.php:168
+msgid ""
+"WPtouch will attempt to disable selected plugin hooks when WPtouch and your "
+"mobile theme are active. Check plugins to disable:"
+msgstr ""
+
+#: admin/admin-panel.php:177
+msgid "There are currently no active plugins to disable."
+msgstr ""
+
+#: admin/admin-panel.php:177
+msgid ""
+"If you have recently installed or reset WPtouch Pro, it must gather active "
+"plugin information first."
+msgstr ""
+
+#: admin/admin-panel.php:180
+#, php-format
+msgid "%sRegenerate Plugin List%s"
+msgstr ""
+
+#: admin/admin-panel.php:184 admin/admin-panel.php:277
+msgid "No advertising"
+msgstr ""
+
+#: admin/admin-panel.php:185
+msgid "Google Adsense"
+msgstr ""
+
+#: admin/admin-panel.php:186
+msgid "Admob Ads"
+msgstr ""
+
+#: admin/admin-panel.php:187 admin/admin-panel.php:278
+#: themes/classic/includes/global.php:447
+msgid "Custom"
+msgstr ""
+
+#: admin/admin-panel.php:192 admin/admin-panel.php:333
+#: admin/admin-panel.php:630 include/classes/wptouch-pro.php:872
+#: include/classes/wptouch-pro.php:880 include/classes/wptouch-pro.php:884
+#: include/classes/wptouch-pro.php:888 include/classes/wptouch-pro.php:892
+#: include/classes/wptouch-pro.php:896 include/classes/wptouch-pro.php:900
+#: themes/skeleton/root-functions.php:83
+msgid "General"
+msgstr ""
+
+#: admin/admin-panel.php:194 include/classes/wptouch-pro.php:872
+msgid "Overview"
+msgstr ""
+
+#: admin/admin-panel.php:196
+msgid "WPtouchboard"
+msgstr ""
+
+#: admin/admin-panel.php:201
+msgid "Global General"
+msgstr ""
+
+#: admin/admin-panel.php:203
+msgid "Site Branding"
+msgstr ""
+
+#: admin/admin-panel.php:204
+msgid "WPtouch site title"
+msgstr ""
+
+#: admin/admin-panel.php:204
+msgid ""
+"If the title of your site is long, you can shorten it for display within "
+"WPtouch."
+msgstr ""
+
+#: admin/admin-panel.php:205
+msgid "Display \"Powered by WPtouch Pro\" in footer"
+msgstr ""
+
+#: admin/admin-panel.php:208
+msgid "Regionalization"
+msgstr ""
+
+#: admin/admin-panel.php:212
+msgid "WPtouch Pro language"
+msgstr ""
+
+#: admin/admin-panel.php:213
+msgid ""
+"The WPtouch Pro admin panel / supported themes will be shown in this locale"
+msgstr ""
+
+#: admin/admin-panel.php:218
+msgid "WPtouch Landing Page"
+msgstr ""
+
+#: admin/admin-panel.php:219
+msgid ""
+"Enable landing redirect (overrides default WordPress settings for landing "
+"page)"
+msgstr ""
+
+#: admin/admin-panel.php:219
+msgid ""
+"When checked WPtouch overrides your WordPress homepage settings, and uses "
+"another page you select for its homepage."
+msgstr ""
+
+#: admin/admin-panel.php:221
+msgid "Custom home page URL"
+msgstr ""
+
+#: admin/admin-panel.php:224
+msgid "Switch Link"
+msgstr ""
+
+#: admin/admin-panel.php:225
+msgid "Show switch link"
+msgstr ""
+
+#: admin/admin-panel.php:225
+msgid ""
+"When unchecked WPtouch will not show a switch link allowing users to switch "
+"between the mobile view and your regular theme view"
+msgstr ""
+
+#: admin/admin-panel.php:229
+msgid "Switch link destination"
+msgstr ""
+
+#: admin/admin-panel.php:230
+msgid ""
+"Choose between the same URL from which a user chooses to switch, or your "
+"Homepage as the switch link destination."
+msgstr ""
+
+#: admin/admin-panel.php:232
+msgid "Same URL"
+msgstr ""
+
+#: admin/admin-panel.php:233
+msgid "Site Homepage"
+msgstr ""
+
+#: admin/admin-panel.php:236
+msgid "Theme switch styling"
+msgstr ""
+
+#: admin/admin-panel.php:236
+msgid ""
+"Here you can edit the CSS output to style the switch link appearance in the "
+"footer of your regular theme."
+msgstr ""
+
+#: admin/admin-panel.php:239
+msgid "Welcome, 404, Footer"
+msgstr ""
+
+#: admin/admin-panel.php:240
+msgid "Welcome message shown on 1st visit (HTML is OK)"
+msgstr ""
+
+#: admin/admin-panel.php:240
+msgid ""
+"The welcome message shows below the header for visitors until dismissed."
+msgstr ""
+
+#: admin/admin-panel.php:241
+msgid "Custom 404 message (HTML is OK)"
+msgstr ""
+
+#: admin/admin-panel.php:241
+msgid "Change this to whatever you'd like for your 404 page message."
+msgstr ""
+
+#: admin/admin-panel.php:242
+msgid "Custom footer content (HTML is OK)"
+msgstr ""
+
+#: admin/admin-panel.php:242
+msgid ""
+"Enter additional content to be displayed in the WPtouch footer. Everything "
+"here is wrapped in a paragraph tag."
+msgstr ""
+
+#: admin/admin-panel.php:245 admin/admin-panel.php:514
+msgid "Advanced"
+msgstr ""
+
+#: admin/admin-panel.php:246
+msgid "1st time visitors see desktop theme"
+msgstr ""
+
+#: admin/admin-panel.php:246
+msgid ""
+"Your regular theme will be shown to 1st time mobile visitors first, with the "
+"Mobile View switch link available in the footer."
+msgstr ""
+
+#: admin/admin-panel.php:247
+msgid "Force multisite detection"
+msgstr ""
+
+#: admin/admin-panel.php:247
+msgid ""
+"This option will force  the WordPress multisite panels to be displayed. This "
+"option should only be used on an actual multisite installation."
+msgstr ""
+
+#: admin/admin-panel.php:248
+msgid "Convert all plain-text links in post content to clickable links"
+msgstr ""
+
+#: admin/admin-panel.php:248
+msgid ""
+"Normally links posted into post content are plain-text and cannot be "
+"clicked.  Enabling this option will make these links clickable, similar to "
+"the P2 theme."
+msgstr ""
+
+#: admin/admin-panel.php:249
+msgid "Respect WordPress setting for date format in themes"
+msgstr ""
+
+#: admin/admin-panel.php:249
+msgid ""
+"When checked WPtouch will use the WordPress date format in themes that "
+"support it (set in WordPress -> Settings - > General)."
+msgstr ""
+
+#: admin/admin-panel.php:250
+msgid "URL to a custom CSS file"
+msgstr ""
+
+#: admin/admin-panel.php:250
+msgid ""
+"Full URL to a custom CSS file to be loaded last in themes. Will override "
+"existing styles, preserving updateability of themes."
+msgstr ""
+
+#: admin/admin-panel.php:254
+msgid "Advertising &amp; Stats"
+msgstr ""
+
+#: admin/admin-panel.php:256
+msgid "Mobile Advertising"
+msgstr ""
+
+#: admin/admin-panel.php:260
+msgid "Mobile advertising support"
+msgstr ""
+
+#: admin/admin-panel.php:261
+msgid ""
+"WPtouch natively supports ads from Google Adsense or Admob. May not show on "
+"all devices (limitations of these services)."
+msgstr ""
+
+#: admin/admin-panel.php:264 admin/admin-panel.php:281
+msgid "Advertising code (HTML or JavaScript)"
+msgstr ""
+
+#: admin/admin-panel.php:264 admin/admin-panel.php:281
+msgid ""
+"You can enter custom advertising code (images, links, scripts, etc.) here"
+msgstr ""
+
+#: admin/admin-panel.php:265
+msgid "Adsense Publisher ID"
+msgstr ""
+
+#: admin/admin-panel.php:265
+msgid ""
+"Enter your full Publisher ID - this is the value of the \"google_ad_client\" "
+"parameter in the Adsense code that Google supplies."
+msgstr ""
+
+#: admin/admin-panel.php:266
+msgid "Adsense Slot ID"
+msgstr ""
+
+#: admin/admin-panel.php:266
+msgid ""
+"Your Adsense Slot ID - this is the value of the \"google_ad_slot\" parameter "
+"in the Adsense code that Google supplies."
+msgstr ""
+
+#: admin/admin-panel.php:267
+msgid "Adsense Channel ID"
+msgstr ""
+
+#: admin/admin-panel.php:267
+msgid "Your Adsense channel (deprecated when using the new Google ad method)"
+msgstr ""
+
+#: admin/admin-panel.php:268
+msgid "Admob Publisher ID"
+msgstr ""
+
+#: admin/admin-panel.php:268
+msgid "Enter your full Admob Publisher ID"
+msgstr ""
+
+#: admin/admin-panel.php:270
+msgid "iPad Advertising"
+msgstr ""
+
+#: admin/admin-panel.php:274
+msgid "iPad advertising support"
+msgstr ""
+
+#: admin/admin-panel.php:283
+msgid "Advertising Display"
+msgstr ""
+
+#: admin/admin-panel.php:287
+msgid "Advertising display location"
+msgstr ""
+
+#: admin/admin-panel.php:288
+msgid "Choose where you would like your ads positioned."
+msgstr ""
+
+#: admin/admin-panel.php:290
+msgid "Below the header"
+msgstr ""
+
+#: admin/admin-panel.php:291
+msgid "In the footer"
+msgstr ""
+
+#: admin/admin-panel.php:298
+msgid "Show ads in these places"
+msgstr ""
+
+#: admin/admin-panel.php:299
+msgid "Choose which page views you'd like ads displayed on"
+msgstr ""
+
+#: admin/admin-panel.php:301
+msgid "Single Post Only"
+msgstr ""
+
+#: admin/admin-panel.php:302
+msgid "Home, Blog, Single Post, Pages"
+msgstr ""
+
+#: admin/admin-panel.php:303
+msgid "All Pages (Home, Blog, Single Post, Pages, Search)"
+msgstr ""
+
+#: admin/admin-panel.php:304
+msgid "Home Page Only"
+msgstr ""
+
+#: admin/admin-panel.php:307
+#, php-format
+msgid ""
+"%sNote: Adsense and Admob ads only show on service-supported devices, and do "
+"NOT work in Web-App Mode%s"
+msgstr ""
+
+#: admin/admin-panel.php:308
+#, php-format
+msgid ""
+"%sAlso, ads will not be shown in Developer Mode on desktop browsers unless "
+"the user agent is changed in the browser to a supported device.%s"
+msgstr ""
+
+#: admin/admin-panel.php:311
+msgid "Site Statistics"
+msgstr ""
+
+#: admin/admin-panel.php:312
+msgid "Custom statistics code (HTML and/or JavaScript only)"
+msgstr ""
+
+#: admin/admin-panel.php:312
+msgid ""
+"Enter your custom statistics tracking code snippets (Google Analytics, MINT, "
+"etc.)"
+msgstr ""
+
+#: admin/admin-panel.php:316 include/classes/wptouch-pro.php:892
+msgid "Push Notifications"
+msgstr ""
+
+#: admin/admin-panel.php:318
+msgid "Prowl Push Notifications"
+msgstr ""
+
+#: admin/admin-panel.php:319
+msgid "Prowl API keys"
+msgstr ""
+
+#: admin/admin-panel.php:319
+msgid ""
+"Enter your Prowl API key here to enable push notifications from WPtouch to "
+"your iPhone/iPod touch via the Prowl app, or Mac with Growl installed and "
+"configured for Prowl. If you have multiple keys, enter and save each one for "
+"a new input to appear."
+msgstr ""
+
+#: admin/admin-panel.php:320
+msgid "Notify of new comments &amp; pingbacks/trackbacks"
+msgstr ""
+
+#: admin/admin-panel.php:320
+msgid "Requires Discussion settings to be enabled in the WordPress settings."
+msgstr ""
+
+#: admin/admin-panel.php:321
+msgid "Notify of new account registrations"
+msgstr ""
+
+#: admin/admin-panel.php:321
+msgid "Requires the \"Anyone can register\" WordPress setting to be enabled."
+msgstr ""
+
+#: admin/admin-panel.php:322
+msgid "Allow users to send direct messages"
+msgstr ""
+
+#: admin/admin-panel.php:322
+msgid ""
+"Adds a push message form in the header to allow visitors to send messages to "
+"you."
+msgstr ""
+
+#: admin/admin-panel.php:323
+msgid ""
+"(Requires Prowl app on iPhone / iPod touch, or Growl setup with Prowl on a "
+"Mac)"
+msgstr ""
+
+#: admin/admin-panel.php:324
+msgid "Get Prowl (App Store)"
+msgstr ""
+
+#: admin/admin-panel.php:324
+msgid "Prowl Website"
+msgstr ""
+
+#: admin/admin-panel.php:324
+msgid "Get Growl"
+msgstr ""
+
+#: admin/admin-panel.php:328 include/classes/wptouch-pro.php:880
+msgid "Compatibility"
+msgstr ""
+
+#: admin/admin-panel.php:331 include/classes/wptouch-pro.php:884
+msgid "Tools and Debug"
+msgstr ""
+
+#: admin/admin-panel.php:334
+msgid "Show load times and query counts in the footer"
+msgstr ""
+
+#: admin/admin-panel.php:334
+msgid ""
+"WPtouch will show the load time and query count to help you find slow pages/"
+"posts on your site."
+msgstr ""
+
+#: admin/admin-panel.php:335
+msgid "Always refresh theme JS and CSS files"
+msgstr ""
+
+#: admin/admin-panel.php:335
+msgid ""
+"Useful when developing. Will make sure WPtouch Pro browser cache of "
+"Javascript and CSS files is updated on every page refresh."
+msgstr ""
+
+#: admin/admin-panel.php:336
+msgid "Move WPtouch admin settings to Appearance menu"
+msgstr ""
+
+#: admin/admin-panel.php:336
+msgid ""
+"Moves WPtouch admin settings from the top-level to the WordPress Appearance "
+"settings. Refresh your browser after saving."
+msgstr ""
+
+#: admin/admin-panel.php:339
+msgid "Developer Mode"
+msgstr ""
+
+#: admin/admin-panel.php:343
+msgid "Developer mode"
+msgstr ""
+
+#: admin/admin-panel.php:344
+msgid ""
+"Shows WPtouch in ALL browsers when enabled. Please remember to disable this "
+"option when finished!"
+msgstr ""
+
+#: admin/admin-panel.php:346 themes/classic/includes/global.php:462
+msgid "Disabled"
+msgstr ""
+
+#: admin/admin-panel.php:347
+msgid "Enabled for admins only"
+msgstr ""
+
+#: admin/admin-panel.php:348
+msgid "Enabled for all users"
+msgstr ""
+
+#: admin/admin-panel.php:351
+msgid "&harr; Developer Mode for"
+msgstr ""
+
+#: admin/admin-panel.php:354
+msgid "Client Mode"
+msgstr ""
+
+#: admin/admin-panel.php:355
+msgid "Hide Licenses tab, and other license related content"
+msgstr ""
+
+#: admin/admin-panel.php:355
+msgid ""
+"Hides all license settings and references. Allows client to see and upgrade "
+"the plugin, adjust active theme and global settings, but not see and/or "
+"change license and domain settings."
+msgstr ""
+
+#: admin/admin-panel.php:356
+msgid "Hide Theme Browser tab"
+msgstr ""
+
+#: admin/admin-panel.php:356
+msgid "Hides the theme browser tab, and prevents theme switching"
+msgstr ""
+
+#: admin/admin-panel.php:357
+msgid "Hide Tools and Debug section"
+msgstr ""
+
+#: admin/admin-panel.php:357
+msgid ""
+"Hides the Tools and Debug settings completely. Once checked only resetting "
+"WPtouch Pro settings will show them again."
+msgstr ""
+
+#: admin/admin-panel.php:360
+msgid "Debugging"
+msgstr ""
+
+#: admin/admin-panel.php:362
+msgid "Debug log"
+msgstr ""
+
+#: admin/admin-panel.php:362
+msgid ""
+"Creates a debug file to help diagnose issues with WPtouch. This file is "
+"located in ...wp-content/wptouch-data/debug. "
+msgstr ""
+
+#: admin/admin-panel.php:366
+msgid "Debug log level"
+msgstr ""
+
+#: admin/admin-panel.php:367
+msgid ""
+"Increasing this above Level 1 (Errors) should only be done when "
+"troubleshooting."
+msgstr ""
+
+#: admin/admin-panel.php:369
+msgid "Errors (1)"
+msgstr ""
+
+#: admin/admin-panel.php:370
+msgid "Security (2)"
+msgstr ""
+
+#: admin/admin-panel.php:371
+msgid "Warnings (3)"
+msgstr ""
+
+#: admin/admin-panel.php:372
+msgid "Information (4)"
+msgstr ""
+
+#: admin/admin-panel.php:373
+msgid "Verbose (5)"
+msgstr ""
+
+#: admin/admin-panel.php:379 include/classes/wptouch-pro.php:888
+msgid "Backup/Import"
+msgstr ""
+
+#: admin/admin-panel.php:381
+msgid "Settings Backup and Import"
+msgstr ""
+
+#: admin/admin-panel.php:385
+msgid "&harr; On this site I want to"
+msgstr ""
+
+#: admin/admin-panel.php:388
+msgid "Backup Settings"
+msgstr ""
+
+#: admin/admin-panel.php:389
+msgid "Import Settings"
+msgstr ""
+
+#: admin/admin-panel.php:394
+msgid "Backup"
+msgstr ""
+
+#: admin/admin-panel.php:395
+msgid ""
+"This key represents a backup of all WPtouch Pro settings.<br />You can cut "
+"and paste it into another installation, or save the data to restore at a "
+"later time."
+msgstr ""
+
+#: admin/admin-panel.php:397
+#, php-format
+msgid "%sCopy Backup Key To Clipboard%s"
+msgstr ""
+
+#: admin/admin-panel.php:398
+#, php-format
+msgid ""
+"%sNOTE: A settings backup/restore does NOT include saved files, icons or "
+"themes inside the \"wp-content/wptouch-data/\" directory.%s"
+msgstr ""
+
+#: admin/admin-panel.php:400
+msgid "Import"
+msgstr ""
+
+#: admin/admin-panel.php:401
+#, php-format
+msgid ""
+"Paste a backup key, then save: %s(Right click in textarea, choose \"Paste\")%"
+"s"
+msgstr ""
+
+#: admin/admin-panel.php:414 include/classes/wptouch-pro.php:904
+msgid "Theme Browser"
+msgstr ""
+
+#: admin/admin-panel.php:416
+msgid "Installed Themes"
+msgstr ""
+
+#: admin/admin-panel.php:433 admin/html/settings/icon-picker.php:57
+#: themes/classic/includes/global.php:191
+#: themes/classic/includes/global.php:336
+#: themes/classic/includes/global.php:416
+#: themes/classic/includes/global.php:688
+#: themes/skeleton/root-functions.php:75 themes/skeleton/root-functions.php:98
+msgid "None"
+msgstr ""
+
+#: admin/admin-panel.php:439
+msgid "Theme Skins"
+msgstr ""
+
+#: admin/admin-panel.php:441
+msgid "Available Skins"
+msgstr ""
+
+#: admin/admin-panel.php:445
+msgid "Active skin"
+msgstr ""
+
+#: admin/admin-panel.php:446
+msgid ""
+"Skins are alternate stylesheets which change the look and feel of a theme."
+msgstr ""
+
+#: admin/admin-panel.php:461 admin/html/ajax/license-info.php:12
+msgid "Active Theme"
+msgstr ""
+
+#: admin/admin-panel.php:467
+msgid "WordPress Pages"
+msgstr ""
+
+#: admin/admin-panel.php:482 include/classes/wptouch-pro.php:876
+msgid "Menu + Icons"
+msgstr ""
+
+#: admin/admin-panel.php:484
+msgid "General Settings"
+msgstr ""
+
+#: admin/admin-panel.php:486
+msgid "Drop-Down Menu"
+msgstr ""
+
+#: admin/admin-panel.php:490
+msgid "WPtouch Pro Menu"
+msgstr ""
+
+#: admin/admin-panel.php:497
+msgid "Menu sort order (WordPress Pages menu only)"
+msgstr ""
+
+#: admin/admin-panel.php:498
+msgid "Used to adjust the menu sort order for WPtouch Pro themes "
+msgstr ""
+
+#: admin/admin-panel.php:500
+msgid "Sort by admin page order"
+msgstr ""
+
+#: admin/admin-panel.php:501
+msgid "Sort alphabetically"
+msgstr ""
+
+#: admin/admin-panel.php:506
+msgid "Additional Menu Items"
+msgstr ""
+
+#: admin/admin-panel.php:507
+#, php-format
+msgid "Add a link to %sHome%s in the menu"
+msgstr ""
+
+#: admin/admin-panel.php:508
+#, php-format
+msgid "Add a link to the site %sRSS%s feed in the menu"
+msgstr ""
+
+#: admin/admin-panel.php:509
+msgid "&harr; Use this RSS feed URL"
+msgstr ""
+
+#: admin/admin-panel.php:509
+msgid ""
+"You can enter a custom RSS URL here, such as a FeedBurner feed. When left "
+"blank, the default website RSS Feed is used."
+msgstr ""
+
+#: admin/admin-panel.php:510
+msgid "Add a link for the admin <strong>Email</strong> in the menu"
+msgstr ""
+
+#: admin/admin-panel.php:511
+msgid "&harr; Use this e-mail address"
+msgstr ""
+
+#: admin/admin-panel.php:511
+msgid ""
+"You can enter a custom email address here. When left blank the default admin "
+"email is used."
+msgstr ""
+
+#: admin/admin-panel.php:515
+msgid "Use menu icons"
+msgstr ""
+
+#: admin/admin-panel.php:515
+msgid ""
+"When unchecked no icons will be shown beside menu items, even if configured "
+"in Menu + Icons."
+msgstr ""
+
+#: admin/admin-panel.php:516
+msgid "Use glossy bookmark icon"
+msgstr ""
+
+#: admin/admin-panel.php:516
+msgid ""
+"If unchecked your bookmark icon will be set as \"apple-touch-icon-precomposed"
+"\", and not have the glossy effect applied to it."
+msgstr ""
+
+#: admin/admin-panel.php:517
+msgid "Disable duplicate parent as 1st child link"
+msgstr ""
+
+#: admin/admin-panel.php:517
+msgid ""
+"Check this to disable showing each menu parent as a clickable child item. "
+"NOTE: Parent link will not be accessible with this option enabled."
+msgstr ""
+
+#: admin/admin-panel.php:518
+msgid "Disable drop-down menu completely"
+msgstr ""
+
+#: admin/admin-panel.php:518
+msgid ""
+"Check this to disable the WPtouch menus altogether (useful for custom themes "
+"with menus built outside our code that do not use  WPtouch Pro settings)."
+msgstr ""
+
+#: admin/admin-panel.php:519
+msgid "Cache menu items to reduce database queries"
+msgstr ""
+
+#: admin/admin-panel.php:520
+msgid "Number of seconds to cache menu tree items for"
+msgstr ""
+
+#: admin/admin-panel.php:524
+msgid "Menu and Icon Setup"
+msgstr ""
+
+#: admin/admin-panel.php:526
+msgid "Icon Pool"
+msgstr ""
+
+#: admin/admin-panel.php:531 include/classes/wptouch-pro.php:876
+msgid "Manage Icons and Sets"
+msgstr ""
+
+#: admin/admin-panel.php:533
+msgid "Upload Icons + Icon Sets"
+msgstr ""
+
+#: admin/admin-panel.php:538 admin/admin-panel.php:540
+msgid "Custom Menu Items"
+msgstr ""
+
+#: admin/admin-panel.php:541
+msgid ""
+"You can enter up to 3 custom menu links to be shown in the WPtouch header "
+"menu."
+msgstr ""
+
+#: admin/admin-panel.php:542 admin/admin-panel.php:556
+#: admin/admin-panel.php:570
+#, php-format
+msgid "Custom menu title %s"
+msgstr ""
+
+#: admin/admin-panel.php:543 admin/admin-panel.php:557
+#: admin/admin-panel.php:571
+#, php-format
+msgid "Custom menu URL %s"
+msgstr ""
+
+#: admin/admin-panel.php:547 admin/admin-panel.php:561
+#: admin/admin-panel.php:575
+#, php-format
+msgid "Custom menu position %s"
+msgstr ""
+
+#: admin/admin-panel.php:548
+msgid ""
+"Select whether the link is shown above or below the WP pages in your menu"
+msgstr ""
+
+#: admin/admin-panel.php:550 admin/admin-panel.php:564
+#: admin/admin-panel.php:578
+msgid "Top"
+msgstr ""
+
+#: admin/admin-panel.php:551 admin/admin-panel.php:565
+#: admin/admin-panel.php:579
+msgid "Bottom"
+msgstr ""
+
+#: admin/admin-panel.php:554 admin/admin-panel.php:568
+#: admin/admin-panel.php:582
+msgid "Force URL to leave Web-App Mode"
+msgstr ""
+
+#: admin/admin-panel.php:554
+msgid ""
+"URL will be opened in Mobile Safari.  This feature is sometimes required for "
+"external links."
+msgstr ""
+
+#: admin/admin-panel.php:592
+msgid "Account + Key"
+msgstr ""
+
+#: admin/admin-panel.php:594
+msgid "Account Information"
+msgstr ""
+
+#: admin/admin-panel.php:595
+msgid ""
+"Your Account E-Mail + License Key are used to activate licenses for support "
+"and auto-upgrades."
+msgstr ""
+
+#: admin/admin-panel.php:596
+msgid "You can find both of these in the purchase receipt we sent to you."
+msgstr ""
+
+#: admin/admin-panel.php:598
+msgid "Account E-Mail"
+msgstr ""
+
+#: admin/admin-panel.php:599
+msgid "License Key"
+msgstr ""
+
+#: admin/admin-panel.php:607 admin/admin-panel.php:609
+msgid "Manage Licenses"
+msgstr ""
+
+#: admin/admin-panel.php:620
+msgid "License"
+msgstr ""
+
+#: admin/admin-panel.php:628
+msgid "Multisite"
+msgstr ""
+
+#: admin/admin-panel.php:632
+msgid "Secondary Admin Panels"
+msgstr ""
+
+#: admin/admin-panel.php:633
+msgid "Disable Theme Browser tab"
+msgstr ""
+
+#: admin/admin-panel.php:634
+msgid "Disable Push Notifications pane"
+msgstr ""
+
+#: admin/admin-panel.php:635
+msgid "Disable Overview pane"
+msgstr ""
+
+#: admin/admin-panel.php:636
+msgid "Disable Advertising pane"
+msgstr ""
+
+#: admin/admin-panel.php:637
+msgid "Disable Statistics pane"
+msgstr ""
+
+#: admin/admin-panel.php:638
+msgid "Disable Manage Icons pane"
+msgstr ""
+
+#: admin/admin-panel.php:639
+msgid "Disable Compatability pane"
+msgstr ""
+
+#: admin/admin-panel.php:640
+msgid "Disable Tools and Debug pane"
+msgstr ""
+
+#: admin/admin-panel.php:641
+msgid "Disable Backup/Import pane"
+msgstr ""
+
+#: admin/admin-panel.php:645 admin/admin-panel.php:647
+msgid "Inherited Settings"
+msgstr ""
+
+#: admin/admin-panel.php:648
+msgid "Inherit advertising settings"
+msgstr ""
+
+#: admin/admin-panel.php:649
+msgid "Inherit Prowl settings"
+msgstr ""
+
+#: admin/admin-panel.php:650
+msgid "Inherit Statistics settings"
+msgstr ""
+
+#: admin/admin-panel.php:651
+msgid "Inherit active theme"
+msgstr ""
+
+#: admin/admin-panel.php:652
+msgid "Inherit compatability settings"
+msgstr ""
+
+#: admin/admin-panel.php:666
+msgid "Modules"
+msgstr ""
+
+#: admin/html/admin-form.php:6
+msgid "WPtouch Pro Developer Mode: ON"
+msgstr ""
+
+#: admin/html/admin-form.php:13
+msgid "Upgrade Available"
+msgstr ""
+
+#: admin/html/admin-form.php:33 themes/classic/includes/theme.php:279
+msgid "Loading..."
+msgstr ""
+
+#: admin/html/admin-form.php:34
+msgid "Saving..."
+msgstr ""
+
+#: admin/html/admin-form.php:35
+msgid "Done"
+msgstr ""
+
+#: admin/html/admin-form.php:36
+msgid "Oops! Try saving again."
+msgstr ""
+
+#: admin/html/admin-form.php:53
+msgid "Save Changes"
+msgstr ""
+
+#: admin/html/admin-form.php:57
+msgid "Reset Settings"
+msgstr ""
+
+#: admin/html/admin-form.php:59
+msgid "Saving"
+msgstr ""
+
+#: admin/html/admin-form.php:64 admin/html/help.php:3
+msgid "Support Forums"
+msgstr ""
+
+#: admin/html/admin-form.php:65 admin/html/help.php:4
+msgid "Documentation"
+msgstr ""
+
+#: admin/html/admin-form.php:66 admin/html/help.php:5
+msgid "Account & Downloads"
+msgstr ""
+
+#: admin/html/admin-form.php:67
+msgid "Licensing"
+msgstr ""
+
+#: admin/html/admin-form.php:72
+#, php-format
+msgid "%sWPtouch Pro%s is a trademark of BraveNewCode Inc."
+msgstr ""
+
+#: admin/html/ajax/check-api-server.php:2
+msgid "Oops! The license server could not be reached."
+msgstr ""
+
+#: admin/html/ajax/check-api-server.php:2
+msgid ""
+"Don't worry, it's temporary, and doesn't affect WPtouch Pro from working."
+msgstr ""
+
+#: admin/html/ajax/icon-area.php:6
+msgid "Drag icons from the pool to"
+msgstr ""
+
+#: admin/html/ajax/icon-area.php:7
+msgid "associate them with menu pages."
+msgstr ""
+
+#: admin/html/ajax/icon-area.php:8
+msgid "Don't forget to save your changes!"
+msgstr ""
+
+#: admin/html/ajax/icon-area.php:18
+msgid "Author Website"
+msgstr ""
+
+#: admin/html/ajax/icon-area.php:18 admin/html/ajax/icon-area.php:24
+msgid "Delete Set"
+msgstr ""
+
+#: admin/html/ajax/icon-area.php:22 admin/html/ajax/icon-area.php:37
+#: include/classes/wptouch-pro.php:1967 include/classes/wptouch-pro.php:1968
+msgid "Custom Icons"
+msgstr ""
+
+#: admin/html/ajax/icon-area.php:52 admin/html/ajax/icon-area.php:54
+msgid "No Custom Icons to Display"
+msgstr ""
+
+#: admin/html/ajax/icon-area.php:54
+msgid "Add them in the 'Manage Icons + Sets' area"
+msgstr ""
+
+#: admin/html/ajax/knowledge-base.php:7 admin/html/ajax/support-posts.php:13
+#: themes/classic/iphone/blog-loop.php:39
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: admin/html/ajax/knowledge-base.php:11 admin/html/ajax/support-posts.php:17
+msgid "The BraveNewCode Forums timed out."
+msgstr ""
+
+#: admin/html/ajax/license-info.php:5
+msgid "iPad theme ON"
+msgstr ""
+
+#: admin/html/ajax/license-info.php:7
+msgid "iPad Theme OFF"
+msgstr ""
+
+#: admin/html/ajax/license-info.php:17 admin/html/ajax/license-info.php:19
+#: admin/html/ajax/license-info.php:22
+msgid "Status"
+msgstr ""
+
+#: admin/html/ajax/license-info.php:17
+msgid "LICENSED"
+msgstr ""
+
+#: admin/html/ajax/license-info.php:17
+msgid "Thank you for supporting us!"
+msgstr ""
+
+#: admin/html/ajax/license-info.php:19
+msgid "ACTIVATION REQUIRED"
+msgstr ""
+
+#: admin/html/ajax/license-info.php:19
+msgid "Activate a Site License"
+msgstr ""
+
+#: admin/html/ajax/license-info.php:22
+msgid "UNLICENSED"
+msgstr ""
+
+#: admin/html/ajax/license-info.php:22
+msgid "Purchase a License"
+msgstr ""
+
+#: admin/html/ajax/licenses-left.php:9
+msgid "Licenses Remaining"
+msgstr ""
+
+#: admin/html/ajax/profile.php:4
+msgid "You have activated these sites for automatic upgrades & support:"
+msgstr ""
+
+#: admin/html/ajax/profile.php:9
+msgid "Remove license?"
+msgstr ""
+
+#: admin/html/ajax/profile.php:16
+#, php-format
+msgid "%s%d%s license(s) remaining."
+msgstr ""
+
+#: admin/html/ajax/profile.php:20
+msgid "Purchase More Licenses"
+msgstr ""
+
+#: admin/html/ajax/profile.php:27
+msgid "You have not activated a license for this WordPress installation."
+msgstr ""
+
+#: admin/html/ajax/profile.php:30
+msgid "Activate This WordPress installation &raquo;"
+msgstr ""
+
+#: admin/html/ajax/profile.php:39
+msgid "Reset Licenses Now"
+msgstr ""
+
+#: admin/html/ajax/profile.php:44
+#, php-format
+msgid "You can reset all support and auto-upgrade licenses every %d days."
+msgstr ""
+
+#: admin/html/ajax/profile.php:51
+#, php-format
+msgid "You will be able to reset all licenses again in %d day(s)."
+msgstr ""
+
+#: admin/html/ajax/wptouch-news.php:9
+msgid "The BraveNewCode Blog timed out."
+msgstr ""
+
+#: admin/html/help.php:1
+msgid "WPtouch Pro Help & Account Links"
+msgstr ""
+
+#: admin/html/help.php:6
+msgid "BraveNewCode on Twitter"
+msgstr ""
+
+#: admin/html/help.php:7
+msgid "Plugin Licensing Terms"
+msgstr ""
+
+#: admin/html/icon-menu/main.php:32
+msgid "There are no WordPress pages available to configure."
+msgstr ""
+
+#: admin/html/settings/custom-latest.php:14
+msgid "None (Use WordPress Settings)"
+msgstr ""
+
+#: admin/html/settings/custom-latest.php:19
+msgid "Custom latest posts page"
+msgstr ""
+
+#: admin/html/settings/custom-latest.php:21
+msgid ""
+"This setting can be used to convert a regular WordPress page into a page "
+"that shows the latest posts."
+msgstr ""
+
+#: admin/html/settings/icon-picker.php:12
+msgid "Active Icon Set: "
+msgstr ""
+
+#: admin/html/settings/icon-picker.php:24
+msgid "General Icons + Menu Setup"
+msgstr ""
+
+#: admin/html/settings/icon-picker.php:29
+msgid "Site, Theme &amp; Bookmark"
+msgstr ""
+
+#: admin/html/settings/icon-picker.php:30
+msgid "Pages / Custom Menu"
+msgstr ""
+
+#: admin/html/settings/icon-picker.php:37
+msgid "Reset All Pages & Icons"
+msgstr ""
+
+#: admin/html/settings/icon-picker.php:57
+msgid "Show / Hide"
+msgstr ""
+
+#: admin/html/settings/icon-picker.php:57
+msgid "Check All"
+msgstr ""
+
+#: admin/html/settings/icon-picker.php:66
+msgid "Trash"
+msgstr ""
+
+#: admin/html/settings/icon-picker.php:67
+msgid "(drag here to reset icon)"
+msgstr ""
+
+#: admin/html/settings/license-check.php:11
+msgid "License accepted, thank you for supporting WPtouch Pro!"
+msgstr ""
+
+#: admin/html/settings/license-check.php:13
+#, php-format
+msgid ""
+"Your Account E-Mail and License Key have been accepted. <br />Next, %"
+"sconnect a site license%s to this domain to enable support and automatic "
+"upgrades."
+msgstr ""
+
+#: admin/html/settings/license-check.php:18
+msgid "The Account E-Mail you have entered is invalid. Please try again."
+msgstr ""
+
+#: admin/html/settings/license-check.php:20
+msgid ""
+"The Account E-Mail you have entered is not associated with a valid license.  "
+"Please check your Account E-Mail and try again."
+msgstr ""
+
+#: admin/html/settings/license-check.php:22
+msgid ""
+"This Account E-Mail/License Key combination you have entered was rejected by "
+"the BraveNewCode server. Please try again."
+msgstr ""
+
+#: admin/html/settings/license-check.php:25
+#, php-format
+msgid ""
+"Please enter your Account E-Mail and License Key to begin the license "
+"activation process, or %spurchase a license &raquo;%s"
+msgstr ""
+
+#: admin/html/settings/manage-licenses.php:1
+msgid "Loading licenses from the BraveNewCode server..."
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:4
+msgid "Upload Icon / Set"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:12
+msgid "Ready for upload..."
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:16
+msgid "Set name"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:19
+msgid "Set description"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:22
+msgid "Save"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:29
+msgid "Information + Help"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:30
+msgid "Uploading Icons"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:31
+#, php-format
+msgid ""
+"Single images and those in .ZIP packages <em>must</em> be in .PNG format. "
+"When you upload a .ZIP you <em>must</em> name the set. The .ZIP size limit "
+"on your server is %dMB."
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:32
+msgid "Homescreen Icons"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:33
+msgid ""
+"For images that will used as a Homescreen (Bookmark) icon, they should be "
+"59x60 pixels or higher for best results on iPhone 2G, 3G and 3GS, and "
+"113x114 pixels for iPhone 4."
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:34
+msgid "Resources"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:35
+#, php-format
+msgid "%sOnline Icon Generator%s"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:40
+msgid "Manage Installed Icons + Sets"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:42
+msgid "Pool Background Color"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:42
+#: themes/classic/includes/global.php:393
+#: themes/classic/includes/global.php:572
+msgid "Light"
+msgstr ""
+
+#: admin/html/settings/manage-sets.php:42
+#: themes/classic/includes/global.php:394
+#: themes/classic/includes/global.php:573
+msgid "Dark"
+msgstr ""
+
+#: admin/html/settings/plugin-compat.php:4
+msgid "Problem Area"
+msgstr ""
+
+#: admin/html/settings/plugin-compat.php:5
+msgid "Description"
+msgstr ""
+
+#: admin/html/settings/plugin-compat.php:6
+msgid "Action"
+msgstr ""
+
+#: admin/html/settings/plugin-compat.php:15
+msgid "More Info"
+msgstr ""
+
+#: admin/html/settings/plugin-compat.php:17
+msgid "Dismiss"
+msgstr ""
+
+#: admin/html/settings/plugin-compat.php:22
+msgid "No known warnings or conflicts."
+msgstr ""
+
+#: admin/html/settings/redirect.php:14
+msgid "Custom Home Page"
+msgstr ""
+
+#: admin/html/settings/redirect.php:19
+msgid "Redirect target"
+msgstr ""
+
+#: admin/html/settings/restore.php:11
+msgid ""
+"The import key you used is not valid.  Please try a copy/paste of your key "
+"again."
+msgstr ""
+
+#: admin/html/settings/sysinfo.php:4
+msgid "WordPress Version"
+msgstr ""
+
+#: admin/html/settings/sysinfo.php:5
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: admin/html/settings/sysinfo.php:8
+msgid "Server Configuration"
+msgstr ""
+
+#: admin/html/settings/sysinfo.php:12
+msgid "Browser User Agent"
+msgstr ""
+
+#: admin/html/settings/tablet-user-agents.php:3
+#: admin/html/settings/user-agents.php:3
+msgid "Device Classes"
+msgstr ""
+
+#: admin/html/settings/tablet-user-agents.php:4
+#: admin/html/settings/user-agents.php:4
+#: themes/skeleton/root-functions.php:112
+msgid "User Agents"
+msgstr ""
+
+#: admin/html/settings/tablet-user-agents.php:7
+msgid "iOS / Webkit"
+msgstr ""
+
+#: admin/html/settings/theme-browser.php:11
+#, php-format
+msgid "%s Theme Image"
+msgstr ""
+
+#: admin/html/settings/theme-browser.php:16
+msgid "Activate"
+msgstr ""
+
+#: admin/html/settings/theme-browser.php:20
+msgid "Copy As Child"
+msgstr ""
+
+#: admin/html/settings/theme-browser.php:22
+msgid "Copy As New"
+msgstr ""
+
+#: admin/html/settings/theme-browser.php:25
+msgid "Delete"
+msgstr ""
+
+#: admin/html/settings/theme-browser.php:30
+#, php-format
+msgid "(%s)"
+msgstr ""
+
+#: admin/html/settings/theme-browser.php:32
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: admin/html/settings/theme-browser.php:35
+#, php-format
+msgid "Features: %s"
+msgstr ""
+
+#: admin/html/settings/theme-browser.php:38
+#, php-format
+msgid "Theme Location (relative to wp-content):<br />%s"
+msgstr ""
+
+#: admin/html/settings/theme-browser.php:45
+msgid "There are currently no themes installed."
+msgstr ""
+
+#: admin/html/settings/user-agents.php:31
+msgid "Other"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:10
+msgid "Right Now"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:14
+msgid "At a Glance"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:20
+msgid "Themes"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:24
+msgid "Icons"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:28
+msgid "Icon Sets"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:33
+msgid "Warnings"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:51
+msgid "WPtouch News"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:55
+msgid "From the BraveNewCode Blog"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:65
+msgid "Recent Support Posts"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:69
+msgid "From the WPtouch Pro Forums"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:76
+msgid "Support QuickPress"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:79
+msgid "Add a New Topic to the Pro Forums"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:83
+msgid "Topic Title"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:88
+msgid "Topic Tags"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:92
+#: themes/classic/iphone/comments.php:89
+msgid "Publish"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:98
+msgid "Knowledge Base"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:99
+msgid "Recent Articles"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:107
+msgid "This copy of WPtouch Pro is partially activated."
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:108
+msgid "Add a site license &raquo;"
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:115
+#, php-format
+msgid "This copy of WPtouch Pro %s is unlicensed."
+msgstr ""
+
+#: admin/html/settings/wptouch-board.php:118
+msgid "Get started with Activation &raquo;"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:896
+msgid "Advertising"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:900
+msgid "Statistics"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1146
+msgid "Home"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1156 include/classes/wptouch-pro.php:1856
+msgid "Email"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1161 include/classes/wptouch-pro.php:1860
+msgid "RSS"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1256
+msgid "There is a new version of WPtouch Pro available."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1256
+msgid "View version details"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1374
+msgid "WPtouch Pro Beta Changelog"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1382
+msgid "WPtouch Pro Changelog"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1850
+msgid "Logo/Header"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1851
+msgid "iPhone/Android Homescreen"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1853
+msgid "iPad Homescreen"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:1881
+msgid "Default Page"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2273
+#, php-format
+msgid "%d queries in %0.1f ms"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2542
+msgid ""
+"WPtouch Pro will not work fully in safe mode. The ability to save custom "
+"icons/sets or themes, and write files like the debug log are not available."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2546
+msgid ""
+"Configuration is required to work with WPtouch Pro. It must configured to "
+"exclude the user agents that WPtouch Pro is enabled for (iphone, ipod, "
+"incognito, webmate,android, dream, cupcake, froyo,blackberry9500, "
+"blackberry9520, blackberry9530, blackberry9550, blackberry 9800, "
+"\tblackberry 9850, blackberry 9860, blackberry 9780, blackberry 9790, "
+"blackberry 9900, blackberry 9930, blackberry 9350, blackberry 9360, "
+"blackberry 9370, blackberry 9380, blackberry 9810,iemobile/7.0, iemobile/9.0,"
+"webos,s8000, bada,googlebot-mobile, adsbot-google)"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2550
+msgid ""
+"Extra configuration is required. It must be configured to exclude the user "
+"agents that WPtouch Pro is enabled for (iphone, ipod, incognito, webmate,"
+"android, dream, cupcake, froyo,blackberry9500, blackberry9520, "
+"blackberry9530, blackberry9550, blackberry 9800, \tblackberry 9850, "
+"blackberry 9860, blackberry 9780, blackberry 9790, blackberry 9900, "
+"blackberry 9930, blackberry 9350, blackberry 9360, blackberry 9370, "
+"blackberry 9380, blackberry 9810,iemobile/7.0, iemobile/9.0,webos,s8000, "
+"bada,googlebot-mobile, adsbot-google)"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2554
+msgid ""
+"Extra configuration is required. You must enable the \"Detect mobile devices"
+"\" option, and add these user agents that WPtouch Pro is enabled for "
+"(iphone, ipod, incognito, webmate,android, dream, cupcake, froyo,"
+"blackberry9500, blackberry9520, blackberry9530, blackberry9550, blackberry "
+"9800, \tblackberry 9850, blackberry 9860, blackberry 9780, blackberry 9790, "
+"blackberry 9900, blackberry 9930, blackberry 9350, blackberry 9360, "
+"blackberry 9370, blackberry 9380, blackberry 9810,iemobile/7.0, iemobile/9.0,"
+"webos,s8000, bada,googlebot-mobile, adsbot-google) to the Mobile agent list."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2558
+msgid ""
+"Extra configuration is required. Add paths to your active WPtouch Pro theme "
+"CSS and Javascript files as files to ignore in WPMinify."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2562
+msgid ""
+"This plugin will not work correctly in WPtouch Pro, and should be disabled "
+"below in the Plugin Compatibility section."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2566
+msgid ""
+"WP Mobile edition should be configured to exclude the user agents that "
+"WPtouch Pro is enabled for (iphone, ipod, incognito, webmate,android, dream, "
+"cupcake, froyo,blackberry9500, blackberry9520, blackberry9530, "
+"blackberry9550, blackberry 9800, \tblackberry 9850, blackberry 9860, "
+"blackberry 9780, blackberry 9790, blackberry 9900, blackberry 9930, "
+"blackberry 9350, blackberry 9360, blackberry 9370, blackberry 9380, "
+"blackberry 9810,iemobile/7.0, iemobile/9.0,webos,s8000, bada,googlebot-"
+"mobile, adsbot-google)."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2570
+msgid ""
+"WPtouch Pro cannot co-exist with WPtouch 1.x.  Disable it first in the "
+"WordPress Plugins settings."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2574
+msgid ""
+"The Featured Content Gallery plugin does not work correctly with WPtouch "
+"Pro. Please disable it below in the Plugin Compatibility section."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:2583
+#, php-format
+msgid ""
+"WPtouch Pro requires pretty permalinks to be enabled within WordPress. %"
+"sMore Info%s"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3145
+#, php-format
+msgid "Powered by %1$s %2$s"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3146
+msgid "By BraveNewCode"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3258
+msgid "Uploading..."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3259
+msgid "Your file is currently being uploaded, please wait."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3260
+msgid "Upload complete, processing file..."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3261
+msgid "Your upload has completed, please wait while your file is processed."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3262 include/classes/wptouch-pro.php:3263
+#: include/classes/wptouch-pro.php:3264
+msgid "Upload completed."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3263
+msgid "Your new set is available below."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3264
+msgid "Your new icon is available below."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3265
+msgid "Unzipping icon set..."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3266
+msgid "Icon set uploaded, currently unpackaging..."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3267
+msgid "Invalid file format."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3268
+msgid "Please upload only .PNG (single image) or .ZIP (icon set) file types."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3269
+msgid "Please enter the set information below and click save"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3270
+msgid "Delete this set?"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3270 include/classes/wptouch-pro.php:3271
+#: include/classes/wptouch-pro.php:3272 include/classes/wptouch-pro.php:3273
+msgid "This operation cannot be undone."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3271
+msgid "Delete this theme and all its files?"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3272
+msgid "Reset all WPtouch Pro admin settings?"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3273
+msgid "Reset Menu Page and Icon settings?"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3274
+msgid "Please enter a topic title for the support posting."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3275
+msgid "Please enter at least one tag for the support posting."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3276
+msgid "Please enter a description for the support posting."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3277
+msgid ""
+"There seems to have been a problem posting your support question.  Please "
+"try again later."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3278
+msgid "Your support question has been posted!"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3279
+msgid "Activating license, please wait..."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3280
+msgid "Your Backup Key was copied to the clipboard."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3281
+msgid "All of your licenses will be reset.  Are you sure?"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3282
+msgid ""
+"There was an error resetting your licenses. Please contact customer support."
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3718
+#, php-format
+msgid "From %s (%s)"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3720
+msgid "Direct Message"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3774
+msgid "Directory Problem"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:3775
+msgid "One or more required directories could not be created"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:4506
+msgid "New Ping/Trackback"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:4508
+#, php-format
+msgid "From: %s"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:4508
+#, php-format
+msgid "Post: %s"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:4515
+msgid "New Comment"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:4517 include/classes/wptouch-pro.php:4649
+#, php-format
+msgid "Name: %s"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:4517 include/classes/wptouch-pro.php:4649
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:4517
+#, php-format
+msgid "Comment: %s"
+msgstr ""
+
+#: include/classes/wptouch-pro.php:4647
+msgid "User Registration"
+msgstr ""
+
+#: include/extensions/custom-post-types.php:46
+msgid "Custom Post Types"
+msgstr ""
+
+#: include/extensions/custom-post-types.php:51
+msgid "Enable custom post type support"
+msgstr ""
+
+#: include/extensions/custom-post-types.php:52
+msgid "Show custom post type taxonomy on single post page"
+msgstr ""
+
+#: include/extensions/custom-post-types.php:53
+msgid "Show custom post type taxonomy on main index pages"
+msgstr ""
+
+#: include/extensions/custom-post-types.php:56
+#, php-format
+msgid "Enable '%s' post type"
+msgstr ""
+
+#: include/extensions/custom-post-types.php:59
+msgid "No custom post types found"
+msgstr ""
+
+#: include/extensions/custom-post-types.php:62
+msgid ""
+"Custom posts often rely on custom meta data and may not always be shown "
+"correctly in WPtouch Pro"
+msgstr ""
+
+#: include/extensions/wordtwit-pro.php:179
+#, php-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/extensions/wordtwit-pro.php:182
+#, php-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/extensions/wordtwit-pro.php:185
+#, php-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/extensions/wordtwit-pro.php:188
+#, php-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/html/desktop-switch.php:5 include/html/desktop-switch.php:7
+msgid "Desktop Version"
+msgstr ""
+
+#: include/html/desktop-switch.php:5
+msgid "Switch To iPad Version"
+msgstr ""
+
+#: include/html/desktop-switch.php:7
+msgid "Switch To Mobile Version"
+msgstr ""
+
+#: include/settings.php:13
+#, php-format
+msgid ""
+"%sSorry, the content you were looking for cannot be found. Please use the "
+"menu in the header to access the site search, or browse other site content.%s"
+msgstr ""
+
+#: include/settings.php:17
+msgid "Classic 2.0"
+msgstr ""
+
+#: themes/classic/includes/global.php:115
+msgid ""
+"Install this Web-App on your [device]: tap [icon] then \"Add to Home Screen\""
+msgstr ""
+
+#: themes/classic/includes/global.php:171
+msgid "Theme General"
+msgstr ""
+
+#: themes/classic/includes/global.php:173
+#: themes/skeleton/root-functions.php:85
+msgid "Miscellaneous Options"
+msgstr ""
+
+#: themes/classic/includes/global.php:174
+msgid "Blue dot settings are shared between both Mobile + iPad."
+msgstr ""
+
+#: themes/classic/includes/global.php:176
+msgid "Enable AJAX \"Load More\" link for posts and comments"
+msgstr ""
+
+#: themes/classic/includes/global.php:176
+#: themes/skeleton/root-functions.php:86
+msgid ""
+"Posts and comments will be appended to existing content with an AJAX \"Load "
+"More...\" link. If unchecked regular post/comment pagination will be used."
+msgstr ""
+
+#: themes/classic/includes/global.php:177
+msgid "Allow zooming"
+msgstr ""
+
+#: themes/classic/includes/global.php:177
+msgid "Will allow visitors to zoom in/out on content."
+msgstr ""
+
+#: themes/classic/includes/global.php:178
+msgid "Hide address bar on page load"
+msgstr ""
+
+#: themes/classic/includes/global.php:178
+msgid ""
+"Will hide the address bar in compatible browsers on a page load, showing the "
+"WPtouch header as the top of the page."
+msgstr ""
+
+#: themes/classic/includes/global.php:179
+#: themes/skeleton/root-functions.php:87
+msgid "Use compatibility CSS"
+msgstr ""
+
+#: themes/classic/includes/global.php:179
+#: themes/skeleton/root-functions.php:87
+msgid ""
+"Add the compat.css file from the theme folder. Contains various CSS "
+"declarations for a variety of plugins."
+msgstr ""
+
+#: themes/classic/includes/global.php:181
+msgid "Excluded Posts Options"
+msgstr ""
+
+#: themes/classic/includes/global.php:182
+msgid "Excluded Categories (Comma list of category IDs)"
+msgstr ""
+
+#: themes/classic/includes/global.php:182
+msgid "Posts in these categories will not be shown in WPtouch. (e.g. 3,4,5)"
+msgstr ""
+
+#: themes/classic/includes/global.php:183
+msgid "Excluded Tags (Comma list of tag IDs)"
+msgstr ""
+
+#: themes/classic/includes/global.php:183
+msgid "Posts with these tags will not be shown in WPtouch. (e.g. 3,4,5)"
+msgstr ""
+
+#: themes/classic/includes/global.php:185
+msgid "Video Handling Options"
+msgstr ""
+
+#: themes/classic/includes/global.php:186
+msgid "Handling method"
+msgstr ""
+
+#: themes/classic/includes/global.php:186
+msgid ""
+"If you publish videos on your posts or pages, choose a setting here which "
+"best suits your needs."
+msgstr ""
+
+#: themes/classic/includes/global.php:188
+msgid "FitVids.js (Default)"
+msgstr ""
+
+#: themes/classic/includes/global.php:189
+msgid "Chris Coyier's Fluid Width Videos"
+msgstr ""
+
+#: themes/classic/includes/global.php:190
+msgid "CSS Only (HTML5 Videos)"
+msgstr ""
+
+#: themes/classic/includes/global.php:197
+#: themes/skeleton/root-functions.php:123
+msgid "iOS Web-App Mode"
+msgstr ""
+
+#: themes/classic/includes/global.php:199
+msgid "Enable/Disable iOS Web-App Mode"
+msgstr ""
+
+#: themes/classic/includes/global.php:200
+msgid "Enable iOS Web-App Mode"
+msgstr ""
+
+#: themes/classic/includes/global.php:200
+msgid ""
+"When checked WPtouch will allow iPhone, iPod touch and iPad visitors to "
+"bookmark your site to their home-screens as a web application."
+msgstr ""
+
+#: themes/classic/includes/global.php:203
+msgid "General Options"
+msgstr ""
+
+#: themes/classic/includes/global.php:204
+msgid "Title for your Web-App"
+msgstr ""
+
+#: themes/classic/includes/global.php:204
+msgid ""
+"Set a Web-App title used when visitors save your site to their home screens "
+"(Maximum 14 characters)."
+msgstr ""
+
+#: themes/classic/includes/global.php:205
+msgid "Status Bar color"
+msgstr ""
+
+#: themes/classic/includes/global.php:205
+#: themes/skeleton/root-functions.php:128
+msgid "Choose between grey (default), black or black-translucent."
+msgstr ""
+
+#: themes/classic/includes/global.php:207
+#: themes/classic/includes/global.php:473
+#: themes/skeleton/root-functions.php:130
+msgid "Default (Grey)"
+msgstr ""
+
+#: themes/classic/includes/global.php:208
+#: themes/classic/includes/global.php:475
+#: themes/skeleton/root-functions.php:131
+msgid "Black"
+msgstr ""
+
+#: themes/classic/includes/global.php:209
+#: themes/skeleton/root-functions.php:132
+msgid "Black Translucent"
+msgstr ""
+
+#: themes/classic/includes/global.php:212
+msgid "Enable persistence"
+msgstr ""
+
+#: themes/classic/includes/global.php:212
+msgid ""
+"When checked WPtouch will remember and load the last visited page or post "
+"for a visitor when entering Web-App Mode."
+msgstr ""
+
+#: themes/classic/includes/global.php:213
+msgid "Use AJAX to load posts and pages"
+msgstr ""
+
+#: themes/classic/includes/global.php:213
+msgid ""
+"Speeds up loading of content, but is less compatible with some plugins. "
+"Disable if some features of your site are not working in Web-App Mode."
+msgstr ""
+
+#: themes/classic/includes/global.php:216
+msgid "Notice Bubble"
+msgstr ""
+
+#: themes/classic/includes/global.php:217
+msgid ""
+"Show a notice bubble for iPhone, iPod touch & iPad visitors about Web-App "
+"Mode"
+msgstr ""
+
+#: themes/classic/includes/global.php:217
+msgid ""
+"When checked WPtouch will show a notice bubble on 1st visit letting users "
+"know about your web-app enabled website on iOS devices."
+msgstr ""
+
+#: themes/classic/includes/global.php:218
+msgid "Number of days before the message will be shown again to visitors"
+msgstr ""
+
+#: themes/classic/includes/global.php:218
+msgid ""
+"Entering 0 will cause the bubble to always be shown, useful for development."
+msgstr ""
+
+#: themes/classic/includes/global.php:219
+msgid ""
+"Message shown in the notice bubble for iPhone, iPod touch & iPad visitors:"
+msgstr ""
+
+#: themes/classic/includes/global.php:219
+msgid ""
+"[device] and [icon] are dynamic and used to determine the device and iOS "
+"version. Do not remove these from your message."
+msgstr ""
+
+#: themes/classic/includes/global.php:222
+msgid "Startup Screens"
+msgstr ""
+
+#: themes/classic/includes/global.php:223
+msgid "Use startup screens"
+msgstr ""
+
+#: themes/classic/includes/global.php:223
+msgid ""
+"When checked your website will show a startup image in Web-App Mode. If no "
+"paths are specified default startup screens will be used."
+msgstr ""
+
+#: themes/classic/includes/global.php:224
+msgid "URL to iPhone startup screen (320x460) (.png)"
+msgstr ""
+
+#: themes/classic/includes/global.php:226
+msgid "URL to Retina iPhone startup screen (640x920) (.png) (iOS 5+)"
+msgstr ""
+
+#: themes/classic/includes/global.php:227
+msgid ""
+"URL to 4-inch Retina iPhone Display startup screen (640x1096) (.png) (iOS 6+)"
+msgstr ""
+
+#: themes/classic/includes/global.php:229
+msgid "URL to iPad Portrait startup screen (768x1004) (.png)"
+msgstr ""
+
+#: themes/classic/includes/global.php:230
+msgid "URL to iPad Landscape startup screen (1024x748) (.png) (iOS 5+)"
+msgstr ""
+
+#: themes/classic/includes/global.php:232
+msgid "URL to Retina iPad Portrait startup screen (1536x2008) (.png) (iOS 5+)"
+msgstr ""
+
+#: themes/classic/includes/global.php:233
+msgid "URL to Retina iPad Landscape startup screen (2048x1496) (.png) (iOS 5+)"
+msgstr ""
+
+#: themes/classic/includes/global.php:234
+#, php-format
+msgid ""
+"%sNOTE: Changing the startup screen settings may require you to re-save your "
+"site to your home-screen.%s"
+msgstr ""
+
+#: themes/classic/includes/global.php:239
+msgid "Menu, Posts and Pages"
+msgstr ""
+
+#: themes/classic/includes/global.php:241
+msgid "Theme Menu"
+msgstr ""
+
+#: themes/classic/includes/global.php:243
+msgid "Use menu icon for menu button"
+msgstr ""
+
+#: themes/classic/includes/global.php:243
+msgid "If unchecked the word \"Menu\" will be shown instead of an icon."
+msgstr ""
+
+#: themes/classic/includes/global.php:244
+#: themes/skeleton/root-functions.php:104
+msgid "Show Categories in tab-bar"
+msgstr ""
+
+#: themes/classic/includes/global.php:245
+#: themes/skeleton/root-functions.php:105
+msgid "Show Tags in tab-bar"
+msgstr ""
+
+#: themes/classic/includes/global.php:246
+msgid "Show Account in tab-bar"
+msgstr ""
+
+#: themes/classic/includes/global.php:246
+msgid ""
+"Will always show account login/links in tab bar, even if registration for "
+"your website is not allowed."
+msgstr ""
+
+#: themes/classic/includes/global.php:247
+msgid "Show Search in tab-bar"
+msgstr ""
+
+#: themes/classic/includes/global.php:248
+msgid "Show \"Admin\" in Account tab links"
+msgstr ""
+
+#: themes/classic/includes/global.php:248
+msgid ""
+"Shows an \"Admin\" menu link for logged in users that have edit posts "
+"capability."
+msgstr ""
+
+#: themes/classic/includes/global.php:249
+msgid "Show \"Profile\" in Account tab links"
+msgstr ""
+
+#: themes/classic/includes/global.php:249
+msgid "Show a \"Profile\" link for all logged in users."
+msgstr ""
+
+#: themes/classic/includes/global.php:251
+#: themes/skeleton/root-functions.php:106
+msgid "The push message and account tabs are shown/hidden automatically."
+msgstr ""
+
+#: themes/classic/includes/global.php:254
+msgid "Theme Templates"
+msgstr ""
+
+#: themes/classic/includes/global.php:255
+msgid ""
+"These templates are custom to WPtouch. They trigger a new menu item which "
+"can be configured in the menu settings once activated here."
+msgstr ""
+
+#: themes/classic/includes/global.php:256
+msgid "Use WPtouch Archives template"
+msgstr ""
+
+#: themes/classic/includes/global.php:257
+msgid "Use WPtouch Links template"
+msgstr ""
+
+#: themes/classic/includes/global.php:260
+msgid "Blog Listings"
+msgstr ""
+
+#: themes/classic/includes/global.php:261
+msgid ""
+"These settings affect the display of posts on the WPtouch blog, blog archive "
+"& search pages."
+msgstr ""
+
+#: themes/classic/includes/global.php:262
+msgid "Show author name"
+msgstr ""
+
+#: themes/classic/includes/global.php:263
+msgid "Show categories"
+msgstr ""
+
+#: themes/classic/includes/global.php:264
+msgid "Show tags"
+msgstr ""
+
+#: themes/classic/includes/global.php:265
+msgid "Show date"
+msgstr ""
+
+#: themes/classic/includes/global.php:265
+msgid ""
+"Will show the date in post listings where thumbnails or none are selected in "
+"the post icon settings. Does not affect calendar icons."
+msgstr ""
+
+#: themes/classic/includes/global.php:266
+msgid "Excerpt/Content Options"
+msgstr ""
+
+#: themes/classic/includes/global.php:266
+msgid ""
+"Choose how excerpts are handled in the blog. Search and archive templates "
+"always use excerpts."
+msgstr ""
+
+#: themes/classic/includes/global.php:268
+msgid "Excerpts hidden"
+msgstr ""
+
+#: themes/classic/includes/global.php:269
+msgid "Excerpts shown"
+msgstr ""
+
+#: themes/classic/includes/global.php:270
+msgid "Full posts hidden"
+msgstr ""
+
+#: themes/classic/includes/global.php:271
+msgid "Full posts shown"
+msgstr ""
+
+#: themes/classic/includes/global.php:272
+msgid "First w/ full post shown, others excerpted and hidden"
+msgstr ""
+
+#: themes/classic/includes/global.php:273
+msgid "First w/ full post shown, others excerpted and shown"
+msgstr ""
+
+#: themes/classic/includes/global.php:278
+msgid "Single Posts"
+msgstr ""
+
+#: themes/classic/includes/global.php:279
+msgid "Show author in post header"
+msgstr ""
+
+#: themes/classic/includes/global.php:280
+msgid "Show date in post header"
+msgstr ""
+
+#: themes/classic/includes/global.php:281
+msgid "Show categories post footer"
+msgstr ""
+
+#: themes/classic/includes/global.php:282
+msgid "Show tags post footer"
+msgstr ""
+
+#: themes/classic/includes/global.php:283
+msgid "Show \"Share/Save\" button"
+msgstr ""
+
+#: themes/classic/includes/global.php:283
+msgid ""
+"The \"Share/Save\" button allows visitors to bookmark your site, share on "
+"popular services and via e-mail, or save to Instapaper. You may want to "
+"disable it if you use another sharing plugin."
+msgstr ""
+
+#: themes/classic/includes/global.php:284
+msgid "Hide Responses"
+msgstr ""
+
+#: themes/classic/includes/global.php:284
+msgid ""
+"Hides comments, trackbacks and pingbacks by default, until a visitor clicks "
+"to show them. Speeds up load times if hidden."
+msgstr ""
+
+#: themes/classic/includes/global.php:285
+msgid "Show attached image in post content"
+msgstr ""
+
+#: themes/classic/includes/global.php:285
+msgid ""
+"This option can be used to include an attached image in the post content.  "
+"The image is only included if it doesn't already exist in the post content."
+msgstr ""
+
+#: themes/classic/includes/global.php:286
+msgid "Attached image location in post content"
+msgstr ""
+
+#: themes/classic/includes/global.php:288
+msgid "Above content"
+msgstr ""
+
+#: themes/classic/includes/global.php:289
+msgid "Below content"
+msgstr ""
+
+#: themes/classic/includes/global.php:294 themes/classic/ipad/page.php:31
+#: themes/classic/iphone/page.php:30 themes/skeleton/iphone/page.php:14
+msgid "Pages"
+msgstr ""
+
+#: themes/classic/includes/global.php:295
+msgid "Show attached image in page content"
+msgstr ""
+
+#: themes/classic/includes/global.php:295
+msgid ""
+"This option can be used to include an attached image in the page content.  "
+"The image is only included if it doesn't already exist in the page content."
+msgstr ""
+
+#: themes/classic/includes/global.php:296
+#: themes/skeleton/root-functions.php:88
+msgid "Show comments on pages"
+msgstr ""
+
+#: themes/classic/includes/global.php:296
+#: themes/skeleton/root-functions.php:88
+msgid ""
+"Enabling this setting will cause comments to be shown on pages, if they are "
+"enabled in the WordPress settings."
+msgstr ""
+
+#: themes/classic/includes/global.php:300
+msgid "Style / Appearance"
+msgstr ""
+
+#: themes/classic/includes/global.php:302
+msgid "Header Styling"
+msgstr ""
+
+#: themes/classic/includes/global.php:303
+msgid "URL to a custom header logo"
+msgstr ""
+
+#: themes/classic/includes/global.php:303
+msgid ""
+"Should be 270px (width) by 44px (height). Transparent .PNG is recommended. "
+"If no image is specified here the default Site Icon and Site Title will be "
+"used."
+msgstr ""
+
+#: themes/classic/includes/global.php:304
+msgid "URL to a custom header logo (Retina Sized @ 2x)"
+msgstr ""
+
+#: themes/classic/includes/global.php:304
+msgid ""
+"Should be 540px (width) by 88px (height). Transparent .PNG is recommended."
+msgstr ""
+
+#: themes/classic/includes/global.php:305
+msgid "Header title font"
+msgstr ""
+
+#: themes/classic/includes/global.php:306
+msgid "Header title font size"
+msgstr ""
+
+#: themes/classic/includes/global.php:308
+#: themes/classic/includes/global.php:351
+#: themes/classic/includes/global.php:359
+#: themes/classic/includes/global.php:376
+#: themes/classic/includes/global.php:524
+#: themes/classic/includes/global.php:550
+msgid "16px"
+msgstr ""
+
+#: themes/classic/includes/global.php:309
+#: themes/classic/includes/global.php:360
+#: themes/classic/includes/global.php:525
+#: themes/classic/includes/global.php:551
+msgid "17px"
+msgstr ""
+
+#: themes/classic/includes/global.php:310
+#: themes/classic/includes/global.php:361
+#: themes/classic/includes/global.php:526
+#: themes/classic/includes/global.php:552
+msgid "18px"
+msgstr ""
+
+#: themes/classic/includes/global.php:311
+#: themes/classic/includes/global.php:362
+#: themes/classic/includes/global.php:527
+#: themes/classic/includes/global.php:553
+msgid "19px"
+msgstr ""
+
+#: themes/classic/includes/global.php:312
+#: themes/classic/includes/global.php:363
+msgid "20px"
+msgstr ""
+
+#: themes/classic/includes/global.php:313
+#: themes/classic/includes/global.php:364
+msgid "21px"
+msgstr ""
+
+#: themes/classic/includes/global.php:314
+#: themes/classic/includes/global.php:365
+#: themes/classic/includes/global.php:533
+msgid "22px"
+msgstr ""
+
+#: themes/classic/includes/global.php:315
+#: themes/classic/includes/global.php:534
+msgid "23px"
+msgstr ""
+
+#: themes/classic/includes/global.php:316
+#: themes/classic/includes/global.php:535
+msgid "24px"
+msgstr ""
+
+#: themes/classic/includes/global.php:319
+msgid "Header Color Group"
+msgstr ""
+
+#: themes/classic/includes/global.php:319
+msgid "Choose between a variety of color package header styles."
+msgstr ""
+
+#: themes/classic/includes/global.php:321
+msgid "Classic Black (Default)"
+msgstr ""
+
+#: themes/classic/includes/global.php:322
+msgid "Clean White"
+msgstr ""
+
+#: themes/classic/includes/global.php:323
+msgid "Silver Sheen"
+msgstr ""
+
+#: themes/classic/includes/global.php:324
+msgid "Blue Ocean"
+msgstr ""
+
+#: themes/classic/includes/global.php:325
+msgid "Red Bull"
+msgstr ""
+
+#: themes/classic/includes/global.php:326
+msgid "Green Planet"
+msgstr ""
+
+#: themes/classic/includes/global.php:327
+msgid "Sunkissed Orange"
+msgstr ""
+
+#: themes/classic/includes/global.php:328
+msgid "Violet Purple"
+msgstr ""
+
+#: themes/classic/includes/global.php:331
+msgid "Header Shading Gradient Style"
+msgstr ""
+
+#: themes/classic/includes/global.php:331
+msgid "Changes the default glossy look to other styles."
+msgstr ""
+
+#: themes/classic/includes/global.php:333
+msgid "Default (Glossy)"
+msgstr ""
+
+#: themes/classic/includes/global.php:334
+msgid "Matte"
+msgstr ""
+
+#: themes/classic/includes/global.php:335
+#: themes/classic/includes/global.php:413
+#: themes/classic/includes/global.php:490
+msgid "Grainy"
+msgstr ""
+
+#: themes/classic/includes/global.php:339
+msgid "Show header icon"
+msgstr ""
+
+#: themes/classic/includes/global.php:339
+msgid ""
+"Show/hide the header site icon beside your site title. If you use a custom "
+"logo image this setting will not apply."
+msgstr ""
+
+#: themes/classic/includes/global.php:342
+msgid "Body and Post Styling"
+msgstr ""
+
+#: themes/classic/includes/global.php:343
+#: themes/classic/includes/global.php:518
+msgid "General site font"
+msgstr ""
+
+#: themes/classic/includes/global.php:344
+#: themes/classic/includes/global.php:519
+msgid "General site font size"
+msgstr ""
+
+#: themes/classic/includes/global.php:346
+#: themes/classic/includes/global.php:371
+msgid "11px"
+msgstr ""
+
+#: themes/classic/includes/global.php:347
+#: themes/classic/includes/global.php:372
+msgid "12px"
+msgstr ""
+
+#: themes/classic/includes/global.php:348
+#: themes/classic/includes/global.php:373
+#: themes/classic/includes/global.php:521
+#: themes/classic/includes/global.php:547
+msgid "13px"
+msgstr ""
+
+#: themes/classic/includes/global.php:349
+#: themes/classic/includes/global.php:357
+#: themes/classic/includes/global.php:374
+#: themes/classic/includes/global.php:522
+#: themes/classic/includes/global.php:548
+msgid "14px"
+msgstr ""
+
+#: themes/classic/includes/global.php:350
+#: themes/classic/includes/global.php:358
+#: themes/classic/includes/global.php:375
+#: themes/classic/includes/global.php:523
+#: themes/classic/includes/global.php:549
+msgid "15px"
+msgstr ""
+
+#: themes/classic/includes/global.php:354
+#: themes/classic/includes/global.php:530
+msgid "Post title font"
+msgstr ""
+
+#: themes/classic/includes/global.php:355
+#: themes/classic/includes/global.php:531
+msgid "Post title font size"
+msgstr ""
+
+#: themes/classic/includes/global.php:368
+#: themes/classic/includes/global.php:544
+msgid "Post body font"
+msgstr ""
+
+#: themes/classic/includes/global.php:369
+#: themes/classic/includes/global.php:545
+msgid "Post body font size"
+msgstr ""
+
+#: themes/classic/includes/global.php:379
+#: themes/classic/includes/global.php:556
+msgid "Text justification in post listings, single posts / comments, and pages"
+msgstr ""
+
+#: themes/classic/includes/global.php:381
+#: themes/classic/includes/global.php:558
+msgid "Left"
+msgstr ""
+
+#: themes/classic/includes/global.php:382
+#: themes/classic/includes/global.php:559
+msgid "Full"
+msgstr ""
+
+#: themes/classic/includes/global.php:383
+#: themes/classic/includes/global.php:560
+msgid "Right RTL (experimental)"
+msgstr ""
+
+#: themes/classic/includes/global.php:386
+#: themes/classic/includes/global.php:564
+msgid "Sitewide font color"
+msgstr ""
+
+#: themes/classic/includes/global.php:386
+#: themes/classic/includes/global.php:564
+msgid "e.g. FFFFFF, (Hex without #)"
+msgstr ""
+
+#: themes/classic/includes/global.php:387
+#: themes/classic/includes/global.php:565
+msgid "Sitewide post title color"
+msgstr ""
+
+#: themes/classic/includes/global.php:388
+#: themes/classic/includes/global.php:566
+msgid "Sitewide link color"
+msgstr ""
+
+#: themes/classic/includes/global.php:389
+#: themes/classic/includes/global.php:568
+msgid "Context and label headings color"
+msgstr ""
+
+#: themes/classic/includes/global.php:389
+#: themes/classic/includes/global.php:568
+msgid ""
+"The context header shows for results pages (e.g. Search Results, Leave A "
+"Reply) and other labels and headings."
+msgstr ""
+
+#: themes/classic/includes/global.php:390
+#: themes/classic/includes/global.php:569
+msgid "Footer text color"
+msgstr ""
+
+#: themes/classic/includes/global.php:390
+#: themes/classic/includes/global.php:569
+msgid "This will govern the color of all text in the footer, except for links."
+msgstr ""
+
+#: themes/classic/includes/global.php:391
+#: themes/classic/includes/global.php:570
+msgid "Text shading for headers, footer text"
+msgstr ""
+
+#: themes/classic/includes/global.php:391
+#: themes/classic/includes/global.php:570
+msgid "Use \"dark\" for dark backgrounds, \"light\" for light backgrounds"
+msgstr ""
+
+#: themes/classic/includes/global.php:397
+#, php-format
+msgid "%sOpen Color Picker Tool%s"
+msgstr ""
+
+#: themes/classic/includes/global.php:400
+msgid "Background"
+msgstr ""
+
+#: themes/classic/includes/global.php:401
+msgid "Background hex color (without #)"
+msgstr ""
+
+#: themes/classic/includes/global.php:401
+msgid "If background images are used, the background color is still included."
+msgstr ""
+
+#: themes/classic/includes/global.php:402
+msgid "Background tile"
+msgstr ""
+
+#: themes/classic/includes/global.php:402
+msgid ""
+"Choose a background tile for your theme. Will be repeated vertically and "
+"horizontally."
+msgstr ""
+
+#: themes/classic/includes/global.php:404
+msgid "Thatch (default)"
+msgstr ""
+
+#: themes/classic/includes/global.php:405
+msgid "Thatch (dark)"
+msgstr ""
+
+#: themes/classic/includes/global.php:406
+#: themes/classic/includes/global.php:483
+#: themes/skeleton/root-functions.php:91
+msgid "Thin Stripes"
+msgstr ""
+
+#: themes/classic/includes/global.php:407
+#: themes/classic/includes/global.php:484
+#: themes/skeleton/root-functions.php:92
+msgid "Thick Stripes"
+msgstr ""
+
+#: themes/classic/includes/global.php:408
+#: themes/classic/includes/global.php:485
+#: themes/skeleton/root-functions.php:93
+msgid "Pinstripes Vertical (Blue)"
+msgstr ""
+
+#: themes/classic/includes/global.php:409
+#: themes/classic/includes/global.php:486
+#: themes/skeleton/root-functions.php:94
+msgid "Pinstripes Vertical (Grey)"
+msgstr ""
+
+#: themes/classic/includes/global.php:410
+#: themes/classic/includes/global.php:487
+#: themes/skeleton/root-functions.php:95
+msgid "Pinstripes Horizontal"
+msgstr ""
+
+#: themes/classic/includes/global.php:411
+#: themes/classic/includes/global.php:488
+#: themes/skeleton/root-functions.php:96
+msgid "Pinstripes Diagonal"
+msgstr ""
+
+#: themes/classic/includes/global.php:412
+#: themes/classic/includes/global.php:489
+#: themes/skeleton/root-functions.php:97
+msgid "Skated Concrete"
+msgstr ""
+
+#: themes/classic/includes/global.php:414
+#: themes/classic/includes/global.php:491
+msgid "Cog Canvas"
+msgstr ""
+
+#: themes/classic/includes/global.php:415
+msgid "Dark Grey Thatch"
+msgstr ""
+
+#: themes/classic/includes/global.php:419
+msgid "URL path to a custom background"
+msgstr ""
+
+#: themes/classic/includes/global.php:420
+msgid "Custom background image repeat type"
+msgstr ""
+
+#: themes/classic/includes/global.php:422
+#: themes/classic/includes/global.php:498
+msgid "Repeat Both"
+msgstr ""
+
+#: themes/classic/includes/global.php:423
+#: themes/classic/includes/global.php:499
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: themes/classic/includes/global.php:424
+#: themes/classic/includes/global.php:500
+msgid "Repeat Vertically"
+msgstr ""
+
+#: themes/classic/includes/global.php:425
+#: themes/classic/includes/global.php:501
+msgid "Repeat None"
+msgstr ""
+
+#: themes/classic/includes/global.php:430
+msgid "Calendar/Thumbnail Icons"
+msgstr ""
+
+#: themes/classic/includes/global.php:431
+#: themes/skeleton/root-functions.php:101
+msgid "Post icon type"
+msgstr ""
+
+#: themes/classic/includes/global.php:431
+msgid ""
+"You can choose between calendar icons, WordPress thumbnails, custom field "
+"thumbnails, or if activated, the Simple Post Thumbnails plugin."
+msgstr ""
+
+#: themes/classic/includes/global.php:432
+msgid "Custom field name for thumbnails"
+msgstr ""
+
+#: themes/classic/includes/global.php:432
+msgid ""
+"Enter the name of the custom field used for your custom post thumbnails."
+msgstr ""
+
+#: themes/classic/includes/global.php:434
+msgid "Thumbnail Icons"
+msgstr ""
+
+#: themes/classic/includes/global.php:435
+msgid "Show thumbnails on single post pages next to the post title"
+msgstr ""
+
+#: themes/classic/includes/global.php:436
+msgid "Prefer thumbnails on pages over page icons (WordPress thumbs only)"
+msgstr ""
+
+#: themes/classic/includes/global.php:436
+msgid ""
+"Will show a page thumbnail or featured image instead of the page icon used "
+"in the menu. If no thumbnail is specified, the page icon will be used "
+"instead."
+msgstr ""
+
+#: themes/classic/includes/global.php:437
+msgid "Size (in px) for Classic thumbnails"
+msgstr ""
+
+#: themes/classic/includes/global.php:437
+msgid "Changing this setting will not affect existing post thumbnails."
+msgstr ""
+
+#: themes/classic/includes/global.php:438
+#, php-format
+msgid ""
+"<small>NOTE: You can regenerate your WordPress thumbnails using the %"
+"sRegenerate Thumbnails%s plugin.<br />This will tell wordpress to make new "
+"thumbnails for WPtouch this size.</small>"
+msgstr ""
+
+#: themes/classic/includes/global.php:440
+msgid "Calendar Icons"
+msgstr ""
+
+#: themes/classic/includes/global.php:441
+msgid "Calendar icons background color"
+msgstr ""
+
+#: themes/classic/includes/global.php:441
+msgid "Choose the appearance of your Calendar icons."
+msgstr ""
+
+#: themes/classic/includes/global.php:443
+msgid "Classic Blue"
+msgstr ""
+
+#: themes/classic/includes/global.php:444
+msgid "Various Colors"
+msgstr ""
+
+#: themes/classic/includes/global.php:445
+msgid "Light Grey"
+msgstr ""
+
+#: themes/classic/includes/global.php:446
+msgid "Dark Grey"
+msgstr ""
+
+#: themes/classic/includes/global.php:450
+msgid "Custom calendar icon color (Hex without #)"
+msgstr ""
+
+#: themes/classic/includes/global.php:454
+msgid "iPad Settings"
+msgstr ""
+
+#: themes/classic/includes/global.php:456
+msgid "Enable/Disable iPad Support"
+msgstr ""
+
+#: themes/classic/includes/global.php:459
+msgid "iPad Support"
+msgstr ""
+
+#: themes/classic/includes/global.php:463
+msgid "Enabled"
+msgstr ""
+
+#: themes/classic/includes/global.php:469
+msgid "Style and Appearance"
+msgstr ""
+
+#: themes/classic/includes/global.php:471
+msgid "Header bar, pop-overs and general theme style"
+msgstr ""
+
+#: themes/classic/includes/global.php:471
+msgid ""
+"Unique to iPad, all colors, gradients & shading are done in CSS, optimized "
+"for maximum speed"
+msgstr ""
+
+#: themes/classic/includes/global.php:474
+#: themes/classic/includes/global.php:508
+msgid "Deep Blue"
+msgstr ""
+
+#: themes/classic/includes/global.php:478
+msgid "URL for iPad logo Image shown in the landscape menu"
+msgstr ""
+
+#: themes/classic/includes/global.php:478
+msgid ""
+"If no path is specified no image will be used, and the WPtouch Pro menu will "
+"be full height. (300px by 185px transparent .png recommended)"
+msgstr ""
+
+#: themes/classic/includes/global.php:480
+msgid "Content Background"
+msgstr ""
+
+#: themes/classic/includes/global.php:482
+msgid "Subtle Noise (default)"
+msgstr ""
+
+#: themes/classic/includes/global.php:492
+#: themes/classic/includes/global.php:512
+msgid "Custom Background"
+msgstr ""
+
+#: themes/classic/includes/global.php:495
+msgid "URL to custom content area background"
+msgstr ""
+
+#: themes/classic/includes/global.php:496
+msgid "Custom iPad background repeat type"
+msgstr ""
+
+#: themes/classic/includes/global.php:505
+msgid "Sidebar Background"
+msgstr ""
+
+#: themes/classic/includes/global.php:505
+msgid "This background shows in the landscape menu."
+msgstr ""
+
+#: themes/classic/includes/global.php:507
+msgid "iPad thatch (default)"
+msgstr ""
+
+#: themes/classic/includes/global.php:509
+msgid "Dark Grey Circles"
+msgstr ""
+
+#: themes/classic/includes/global.php:510
+msgid "Dark Grey Canvas"
+msgstr ""
+
+#: themes/classic/includes/global.php:511
+msgid "Bevelled Dots"
+msgstr ""
+
+#: themes/classic/includes/global.php:516
+msgid "URL to custom sidebar area background (repeated X and Y)"
+msgstr ""
+
+#: themes/classic/includes/global.php:536
+msgid "25px"
+msgstr ""
+
+#: themes/classic/includes/global.php:537
+msgid "26px"
+msgstr ""
+
+#: themes/classic/includes/global.php:538
+msgid "27px"
+msgstr ""
+
+#: themes/classic/includes/global.php:539
+msgid "28px"
+msgstr ""
+
+#: themes/classic/includes/global.php:540
+msgid "29px"
+msgstr ""
+
+#: themes/classic/includes/global.php:541
+msgid "30px"
+msgstr ""
+
+#: themes/classic/includes/global.php:567
+msgid "Content area active link color"
+msgstr ""
+
+#: themes/classic/includes/global.php:576
+#, php-format
+msgid "%sOpen colorpicker.com Color Picker%s"
+msgstr ""
+
+#: themes/classic/includes/global.php:579
+msgid "Header Buttons and Blog Popover"
+msgstr ""
+
+#: themes/classic/includes/global.php:580
+msgid "Show home\tbutton"
+msgstr ""
+
+#: themes/classic/includes/global.php:581
+msgid "Show blog button"
+msgstr ""
+
+#: themes/classic/includes/global.php:582
+msgid "Show recent posts in blog popover"
+msgstr ""
+
+#: themes/classic/includes/global.php:582
+msgid "Will include 12 recent posts."
+msgstr ""
+
+#: themes/classic/includes/global.php:583
+msgid "Show popular posts in blog popover"
+msgstr ""
+
+#: themes/classic/includes/global.php:583
+msgid "Will include 12 popular posts, ranked by comments."
+msgstr ""
+
+#: themes/classic/includes/global.php:584
+msgid "Show tags in blog popover"
+msgstr ""
+
+#: themes/classic/includes/global.php:584
+msgid "Will include up to 25 tags, alphabetically."
+msgstr ""
+
+#: themes/classic/includes/global.php:585
+msgid "Show categories in blog popover"
+msgstr ""
+
+#: themes/classic/includes/global.php:585
+msgid "Will include up to 25 categories ranked by post count."
+msgstr ""
+
+#: themes/classic/includes/global.php:586
+msgid "Show account button"
+msgstr ""
+
+#: themes/classic/includes/global.php:586
+msgid "Will be shown automatically if you require accounts."
+msgstr ""
+
+#: themes/classic/includes/global.php:587
+msgid "Show search button"
+msgstr ""
+
+#: themes/classic/includes/global.php:591
+msgid "Mobile User Agents"
+msgstr ""
+
+#: themes/classic/includes/global.php:593
+msgid "Default Mobile User Agents"
+msgstr ""
+
+#: themes/classic/includes/global.php:601
+msgid "Custom Mobile User Agents"
+msgstr ""
+
+#: themes/classic/includes/global.php:602
+#: themes/skeleton/root-functions.php:119
+msgid ""
+"Enter additional user agents on separate lines, not device names or other "
+"information."
+msgstr ""
+
+#: themes/classic/includes/global.php:602
+#: themes/skeleton/root-functions.php:119
+#, php-format
+msgid "Visit %sWikipedia%s for a list of device user agents"
+msgstr ""
+
+#: themes/classic/includes/global.php:606
+msgid "Extensions"
+msgstr ""
+
+#: themes/classic/includes/global.php:614
+msgid "Use mobile WPtouch FlickrRSS Photos template"
+msgstr ""
+
+#: themes/classic/includes/global.php:614
+#: themes/classic/includes/global.php:617
+msgid ""
+"Shows the latest 20 photos from your Flickr RSS feed on its own page, and "
+"adds a link to for it to your drop-down menu."
+msgstr ""
+
+#: themes/classic/includes/global.php:615
+#: themes/classic/includes/global.php:618
+msgid "Enable iPad FlickrRSS popover"
+msgstr ""
+
+#: themes/classic/includes/global.php:615
+#: themes/classic/includes/global.php:618
+msgid ""
+"Shows the latest 20 photos from your Flickr RSS feed in its own popover, and "
+"adds a button to the menubar."
+msgstr ""
+
+#: themes/classic/includes/global.php:617
+msgid "Use mobile WPtouch Photos template"
+msgstr ""
+
+#: themes/classic/includes/global.php:622
+#: themes/classic/includes/global.php:625
+msgid "Show Twitter in mobile drop-down menu tab-bar"
+msgstr ""
+
+#: themes/classic/includes/global.php:622
+#: themes/classic/includes/global.php:625
+msgid ""
+"Shows the latest 10 tweets (excluding those tweeted from WordTwit) in your "
+"drop-down menu."
+msgstr ""
+
+#: themes/classic/includes/global.php:623
+#: themes/classic/includes/global.php:626
+msgid "Show Twitter popover on iPad"
+msgstr ""
+
+#: themes/classic/includes/global.php:623
+#: themes/classic/includes/global.php:626
+msgid ""
+"Shows the latest 10 tweets (excluding those tweeted from WordTwit) in its "
+"own popover, and adds a button to the menubar."
+msgstr ""
+
+#: themes/classic/includes/global.php:630
+msgid "WordTwit Pro"
+msgstr ""
+
+#: themes/classic/includes/global.php:631
+#, php-format
+msgid "These settings require the %sWordTwit Pro%s plugin to be installed:"
+msgstr ""
+
+#: themes/classic/includes/global.php:639
+msgid "Shared accounts to include in tweet listings:"
+msgstr ""
+
+#: themes/classic/includes/global.php:649
+msgid "You must add at least one account in WordTwit Pro."
+msgstr ""
+
+#: themes/classic/includes/global.php:658
+msgid "FlickrRSS"
+msgstr ""
+
+#: themes/classic/includes/global.php:659
+#, php-format
+msgid "These settings require the %sFlickrRSS%s plugin to be installed:"
+msgstr ""
+
+#: themes/classic/includes/global.php:672
+#: themes/skeleton/root-functions.php:71
+msgid "Calendar"
+msgstr ""
+
+#: themes/classic/includes/global.php:676
+msgid "WordPress Thumbnails/Featured Images"
+msgstr ""
+
+#: themes/classic/includes/global.php:680
+msgid "Custom Field Thumbnails"
+msgstr ""
+
+#: themes/classic/includes/global.php:684
+msgid "Simple Post Thumbnails Plugin"
+msgstr ""
+
+#: themes/classic/includes/global.php:695
+msgid "***Some fonts may not be available on all devices***"
+msgstr ""
+
+#: themes/classic/includes/global.php:696
+msgid "AmericanTypewriter"
+msgstr ""
+
+#: themes/classic/includes/global.php:697
+msgid "AmericanTypewriter-Condensed"
+msgstr ""
+
+#: themes/classic/includes/global.php:698
+msgid "AmericanTypewriter-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:699
+msgid "ArialMT"
+msgstr ""
+
+#: themes/classic/includes/global.php:700
+msgid "Arial-BoldMT"
+msgstr ""
+
+#: themes/classic/includes/global.php:701
+msgid "Baskerville"
+msgstr ""
+
+#: themes/classic/includes/global.php:702
+msgid "Baskerville-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:703
+msgid "Cochin"
+msgstr ""
+
+#: themes/classic/includes/global.php:704
+msgid "Cochin-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:705
+msgid "Courier"
+msgstr ""
+
+#: themes/classic/includes/global.php:706
+msgid "Courier-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:707
+msgid "Copperplate"
+msgstr ""
+
+#: themes/classic/includes/global.php:708
+msgid "Copperplate-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:709
+msgid "Futura"
+msgstr ""
+
+#: themes/classic/includes/global.php:710
+msgid "GeezaPro"
+msgstr ""
+
+#: themes/classic/includes/global.php:711
+msgid "GeezaPro-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:712
+msgid "Georgia"
+msgstr ""
+
+#: themes/classic/includes/global.php:713
+msgid "Georgia-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:714
+msgid "GillSans"
+msgstr ""
+
+#: themes/classic/includes/global.php:715
+msgid "GillSans-Light"
+msgstr ""
+
+#: themes/classic/includes/global.php:716
+msgid "GillSans-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:717
+msgid "Helvetica"
+msgstr ""
+
+#: themes/classic/includes/global.php:718
+msgid "Helvetica-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:719
+msgid "HelveticaNeue"
+msgstr ""
+
+#: themes/classic/includes/global.php:720
+msgid "HelveticaNeue-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:721
+msgid "Optima-Regular"
+msgstr ""
+
+#: themes/classic/includes/global.php:722
+msgid "Optima-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:723
+msgid "Palatino-Roman"
+msgstr ""
+
+#: themes/classic/includes/global.php:724
+msgid "Thonburi"
+msgstr ""
+
+#: themes/classic/includes/global.php:725
+msgid "Thonburi-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:726
+msgid "TimesNewRomanPSMT"
+msgstr ""
+
+#: themes/classic/includes/global.php:727
+msgid "TrebuchetMS"
+msgstr ""
+
+#: themes/classic/includes/global.php:728
+msgid "TrebuchetMS-Bold"
+msgstr ""
+
+#: themes/classic/includes/global.php:729
+msgid "Verdana"
+msgstr ""
+
+#: themes/classic/includes/global.php:730
+msgid "Verdana-Bold"
+msgstr ""
+
+#: themes/classic/includes/theme.php:280
+msgid "This is an external link."
+msgstr ""
+
+#: themes/classic/includes/theme.php:281
+msgid "This page is not mobile formatted."
+msgstr ""
+
+#: themes/classic/includes/theme.php:282
+msgid "Do you want to open it in Safari?"
+msgstr ""
+
+#: themes/classic/includes/theme.php:283
+msgid "Saved to Instapaper!"
+msgstr ""
+
+#: themes/classic/includes/theme.php:284
+msgid "There was an error logging into your account. Please try again"
+msgstr ""
+
+#: themes/classic/includes/theme.php:285
+msgid "Username or E-Mail"
+msgstr ""
+
+#: themes/classic/includes/theme.php:286
+msgid "Password (if you use one)"
+msgstr ""
+
+#: themes/classic/includes/theme.php:287
+msgid "Enter Description for Post"
+msgstr ""
+
+#: themes/classic/includes/theme.php:288
+msgid "Leave a comment"
+msgstr ""
+
+#: themes/classic/includes/theme.php:289
+msgid "Leave a reply to"
+msgstr ""
+
+#: themes/classic/includes/theme.php:290
+msgid ""
+"Comment publication failed. Please check your comment details and try again."
+msgstr ""
+
+#: themes/classic/includes/theme.php:291
+msgid "Your comment was published."
+msgstr ""
+
+#: themes/classic/includes/theme.php:292
+msgid ""
+"Direct messaging failed. Please check your message details and try again."
+msgstr ""
+
+#: themes/classic/includes/theme.php:293
+msgid "One or more fields were not completed."
+msgstr ""
+
+#: themes/classic/includes/theme.php:294
+msgid "Visiting this link will cause you to leave Web-App Mode.  Are you sure?"
+msgstr ""
+
+#: themes/classic/includes/theme.php:296
+msgid "ON"
+msgstr ""
+
+#: themes/classic/includes/theme.php:297
+msgid "OFF"
+msgstr ""
+
+#: themes/classic/includes/theme.php:306
+#: themes/classic/ipad/wptouch-archives.php:8
+#: themes/classic/iphone/wptouch-archives.php:9
+#: themes/skeleton/iphone/wptouch-archives.php:9
+#: themes/skeleton/root-functions.php:39
+msgid "Archives"
+msgstr ""
+
+#: themes/classic/includes/theme.php:310
+#: themes/classic/ipad/wptouch-links.php:8
+#: themes/classic/iphone/wptouch-links.php:9
+#: themes/skeleton/iphone/wptouch-links.php:9
+#: themes/skeleton/root-functions.php:43
+msgid "Links"
+msgstr ""
+
+#: themes/classic/includes/theme.php:314
+#: themes/classic/ipad/wptouch-flickr-photos.php:8
+#: themes/classic/iphone/wptouch-flickr-photos.php:9
+msgid "Photos"
+msgstr ""
+
+#: themes/classic/includes/theme.php:331
+msgid "Prev"
+msgstr ""
+
+#: themes/classic/includes/theme.php:341 themes/classic/ipad/blog-loop.php:88
+#: themes/classic/iphone/blog-loop.php:100
+#: themes/skeleton/iphone/functions.php:80 themes/skeleton/iphone/index.php:65
+msgid "Next"
+msgstr ""
+
+#: themes/classic/includes/theme.php:354
+#: themes/skeleton/iphone/functions.php:90
+#, php-format
+msgid "Search results &rsaquo; %s"
+msgstr ""
+
+#: themes/classic/includes/theme.php:357
+#: themes/skeleton/iphone/functions.php:92
+#, php-format
+msgid "Categories &rsaquo; %s"
+msgstr ""
+
+#: themes/classic/includes/theme.php:359
+#: themes/skeleton/iphone/functions.php:94
+#, php-format
+msgid "Tags &rsaquo; %s"
+msgstr ""
+
+#: themes/classic/includes/theme.php:361 themes/classic/includes/theme.php:363
+#: themes/classic/includes/theme.php:365
+#: themes/skeleton/iphone/functions.php:96
+#: themes/skeleton/iphone/functions.php:98
+#: themes/skeleton/iphone/functions.php:100
+#, php-format
+msgid "Archives &rsaquo; %s"
+msgstr ""
+
+#: themes/classic/includes/theme.php:367
+#: themes/skeleton/iphone/functions.php:102
+msgid "404 Not Found"
+msgstr ""
+
+#: themes/classic/includes/theme.php:377
+#: themes/skeleton/iphone/functions.php:112
+msgid "Back in Search"
+msgstr ""
+
+#: themes/classic/includes/theme.php:379
+#: themes/skeleton/iphone/functions.php:114
+msgid "Back in Category"
+msgstr ""
+
+#: themes/classic/includes/theme.php:381
+#: themes/skeleton/iphone/functions.php:116
+msgid "Back in Tag"
+msgstr ""
+
+#: themes/classic/includes/theme.php:383
+#: themes/skeleton/iphone/functions.php:118
+msgid "Back One Day"
+msgstr ""
+
+#: themes/classic/includes/theme.php:385
+#: themes/skeleton/iphone/functions.php:120
+msgid "Back One Month"
+msgstr ""
+
+#: themes/classic/includes/theme.php:387
+#: themes/skeleton/iphone/functions.php:122
+msgid "Back One Year"
+msgstr ""
+
+#: themes/classic/includes/theme.php:394
+#: themes/skeleton/iphone/functions.php:129
+msgid "Next in Search"
+msgstr ""
+
+#: themes/classic/includes/theme.php:396
+#: themes/skeleton/iphone/functions.php:131
+msgid "Next in Category"
+msgstr ""
+
+#: themes/classic/includes/theme.php:398
+#: themes/skeleton/iphone/functions.php:133
+msgid "Next in Tag"
+msgstr ""
+
+#: themes/classic/includes/theme.php:400
+#: themes/skeleton/iphone/functions.php:135
+msgid "Next One Day"
+msgstr ""
+
+#: themes/classic/includes/theme.php:402
+#: themes/skeleton/iphone/functions.php:137
+msgid "Next One Month"
+msgstr ""
+
+#: themes/classic/includes/theme.php:404
+#: themes/skeleton/iphone/functions.php:139
+msgid "Next One Year"
+msgstr ""
+
+#: themes/classic/ipad/404.php:3 themes/classic/iphone/404.php:4
+#: themes/skeleton/iphone/404.php:4
+msgid "Page or Post Not Found"
+msgstr ""
+
+#: themes/classic/ipad/attachment.php:43
+#: themes/classic/iphone/attachment.php:43
+msgid "Pages:"
+msgstr ""
+
+#: themes/classic/ipad/attachment.php:49
+msgid "Previous Image in Gallery"
+msgstr ""
+
+#: themes/classic/ipad/attachment.php:50
+msgid "Next Image in Gallery"
+msgstr ""
+
+#: themes/classic/ipad/blog-loop.php:43
+msgid "By"
+msgstr ""
+
+#: themes/classic/ipad/blog-loop.php:65 themes/classic/ipad/popovers.php:12
+#: themes/classic/ipad/single.php:54 themes/classic/iphone/blog-loop.php:62
+#: themes/classic/iphone/single.php:73 themes/skeleton/iphone/index.php:43
+#: themes/skeleton/iphone/single.php:42 themes/skeleton/iphone/tab-bar.php:12
+msgid "Tags"
+msgstr ""
+
+#: themes/classic/ipad/blog-loop.php:71 themes/classic/ipad/popovers.php:14
+#: themes/classic/ipad/single.php:50 themes/classic/iphone/blog-loop.php:67
+#: themes/classic/iphone/single.php:69 themes/skeleton/iphone/index.php:49
+#: themes/skeleton/iphone/single.php:41 themes/skeleton/iphone/tab-bar.php:9
+msgid "Categories"
+msgstr ""
+
+#: themes/classic/ipad/blog-loop.php:87 themes/classic/iphone/blog-loop.php:99
+#: themes/skeleton/iphone/functions.php:70 themes/skeleton/iphone/index.php:64
+msgid "Back"
+msgstr ""
+
+#: themes/classic/ipad/blog-loop.php:92
+#: themes/classic/iphone/blog-loop.php:104
+#: themes/skeleton/iphone/archive.php:57 themes/skeleton/iphone/index.php:68
+#: themes/skeleton/iphone/search.php:56
+msgid "Load More Entries&hellip;"
+msgstr ""
+
+#: themes/classic/ipad/comment-content.php:3
+#: themes/classic/iphone/functions.php:255
+msgid "Edit"
+msgstr ""
+
+#: themes/classic/ipad/comment-content.php:9
+#: themes/classic/iphone/functions.php:260
+msgid "Reply"
+msgstr ""
+
+#: themes/classic/ipad/comment-content.php:10
+#: themes/classic/iphone/tab-bar.php:23 themes/classic/iphone/tab-bar.php:102
+#: themes/skeleton/iphone/tab-bar.php:17 themes/skeleton/iphone/tab-bar.php:83
+msgid "Login"
+msgstr ""
+
+#: themes/classic/ipad/comment-content.php:21
+#, php-format
+msgid "%1$s &bull; %2$s <span class=\"meta-sep\"></span>"
+msgstr ""
+
+#: themes/classic/ipad/comment-content.php:27
+#: themes/classic/iphone/functions.php:268
+msgid "<span class='unapproved'>Your comment is awaiting moderation.</span>"
+msgstr ""
+
+#: themes/classic/ipad/comment-reply-fly-in.php:3
+#: themes/classic/ipad/comments.php:57
+msgid "Leave A Comment"
+msgstr ""
+
+#: themes/classic/ipad/comment-reply-fly-in.php:4
+#: themes/classic/iphone/comments.php:59
+msgid "Cancel"
+msgstr ""
+
+#: themes/classic/ipad/comments.php:9 themes/skeleton/iphone/comments.php:9
+msgid "This post is password protected. Enter the password to view comments"
+msgstr ""
+
+#: themes/classic/ipad/comments.php:32 themes/classic/ipad/comments.php:34
+#: themes/classic/iphone/comments.php:28 themes/classic/iphone/comments.php:30
+#: themes/skeleton/iphone/comments.php:32
+#: themes/skeleton/iphone/comments.php:34
+msgid "Load More Comments&hellip;"
+msgstr ""
+
+#: themes/classic/ipad/comments.php:45
+msgid "Comments are closed on this entry."
+msgstr ""
+
+#: themes/classic/ipad/comments.php:54
+msgid "Log In To Comment"
+msgstr ""
+
+#: themes/classic/ipad/comments.php:62 themes/classic/iphone/comments.php:65
+#: themes/skeleton/iphone/comments.php:68
+#, php-format
+msgid "You must be %slogged in%s to post a comment."
+msgstr ""
+
+#: themes/classic/ipad/comments.php:68 themes/classic/iphone/comments.php:72
+#: themes/skeleton/iphone/comments.php:76
+msgid "Logged in as"
+msgstr ""
+
+#: themes/classic/ipad/comments.php:68 themes/skeleton/iphone/comments.php:76
+msgid "Log out of this account"
+msgstr ""
+
+#: themes/classic/ipad/comments.php:68 themes/classic/iphone/comments.php:72
+#: themes/skeleton/iphone/comments.php:76
+msgid "Log out"
+msgstr ""
+
+#: themes/classic/ipad/comments.php:73
+msgid "Name  (Required)"
+msgstr ""
+
+#: themes/classic/ipad/comments.php:76
+msgid "E-Mail (Required)"
+msgstr ""
+
+#: themes/classic/ipad/comments.php:78
+msgid "Your Website Address"
+msgstr ""
+
+#: themes/classic/ipad/comments.php:84
+msgid "Publish Comment"
+msgstr ""
+
+#: themes/classic/ipad/footer.php:8
+msgid "iPad Theme"
+msgstr ""
+
+#: themes/classic/ipad/functions.php:205
+#: themes/skeleton/iphone/comments.php:18
+msgid "No Responses"
+msgstr ""
+
+#: themes/classic/ipad/functions.php:206
+msgid "1 Response"
+msgstr ""
+
+#: themes/classic/ipad/functions.php:207
+#: themes/skeleton/iphone/comments.php:18
+msgid "% Responses"
+msgstr ""
+
+#: themes/classic/ipad/header.php:13 themes/classic/iphone/header.php:15
+#: themes/skeleton/iphone/header.php:15
+msgid "Notice"
+msgstr ""
+
+#: themes/classic/ipad/header.php:14 themes/classic/iphone/header.php:16
+#: themes/skeleton/iphone/header.php:16
+msgid "JavaScript is currently off."
+msgstr ""
+
+#: themes/classic/ipad/header.php:15
+msgid "Turn it on in Settings -> Safari to view this mobile website correctly."
+msgstr ""
+
+#: themes/classic/ipad/header.php:46 themes/classic/iphone/header.php:24
+msgid "Close Message"
+msgstr ""
+
+#: themes/classic/ipad/menubar.php:5
+msgid "home"
+msgstr ""
+
+#: themes/classic/ipad/menubar.php:7
+msgid "blog"
+msgstr ""
+
+#: themes/classic/ipad/menubar.php:9
+msgid "menu"
+msgstr ""
+
+#: themes/classic/ipad/menubar.php:19
+msgid "twitter"
+msgstr ""
+
+#: themes/classic/ipad/menubar.php:21
+msgid "flickr photos"
+msgstr ""
+
+#: themes/classic/ipad/menubar.php:23
+msgid "direct message"
+msgstr ""
+
+#: themes/classic/ipad/menubar.php:25
+msgid "account"
+msgstr ""
+
+#: themes/classic/ipad/menubar.php:27 themes/classic/ipad/popovers.php:199
+msgid "search"
+msgstr ""
+
+#: themes/classic/ipad/page.php:24 themes/classic/iphone/page.php:20
+#: themes/skeleton/iphone/page.php:23
+msgid "Pages in the article:"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:8
+msgid "Recent"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:10
+msgid "Popular"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:62
+msgid "menu navigation"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:79
+msgid "push messages"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:83 themes/classic/iphone/comments.php:77
+#: themes/classic/iphone/tab-bar.php:60 themes/skeleton/iphone/comments.php:81
+#: themes/skeleton/iphone/tab-bar.php:46
+msgid "Name"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:84 themes/classic/iphone/comments.php:80
+#: themes/classic/iphone/tab-bar.php:64 themes/skeleton/iphone/comments.php:84
+#: themes/skeleton/iphone/tab-bar.php:51
+msgid "E-Mail"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:86 themes/classic/iphone/tab-bar.php:67
+#: themes/skeleton/iphone/tab-bar.php:57
+msgid "Send Now"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:98
+msgid "Latest Tweets"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:120
+#, php-format
+msgid "Follow @%s"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:135
+msgid "Latest Flickr Photos"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:144
+msgid "No Photos To Display"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:158
+msgid "accounts"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:164 themes/classic/iphone/tab-bar.php:78
+#: themes/skeleton/iphone/tab-bar.php:66
+msgid "Admin"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:167 themes/classic/iphone/tab-bar.php:81
+#: themes/skeleton/iphone/tab-bar.php:68
+msgid "Account Profile"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:169 themes/classic/iphone/tab-bar.php:83
+#: themes/skeleton/iphone/tab-bar.php:69
+msgid "Logout"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:175 themes/classic/iphone/tab-bar.php:94
+#: themes/classic/iphone/tab-bar.php:95 themes/skeleton/iphone/tab-bar.php:76
+msgid "Username"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:178 themes/classic/iphone/tab-bar.php:98
+#: themes/classic/iphone/tab-bar.php:99 themes/skeleton/iphone/tab-bar.php:80
+msgid "Password"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:182
+msgid "Login Now"
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:186 themes/skeleton/iphone/tab-bar.php:88
+#, php-format
+msgid "Not registered yet?<br />You can %ssign-up here%s."
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:187 themes/skeleton/iphone/tab-bar.php:90
+#, php-format
+msgid "Lost your password?<br />You can %sreset it here%s."
+msgstr ""
+
+#: themes/classic/ipad/popovers.php:205
+msgid "Search this website"
+msgstr ""
+
+#: themes/classic/ipad/single.php:14 themes/classic/iphone/single.php:18
+#: themes/skeleton/iphone/single.php:13
+msgid "Published on"
+msgstr ""
+
+#: themes/classic/ipad/single.php:22 themes/classic/iphone/single.php:23
+#: themes/skeleton/iphone/single.php:16
+msgid "Written by"
+msgstr ""
+
+#: themes/classic/ipad/single.php:31 themes/classic/iphone/single.php:50
+#: themes/skeleton/iphone/single.php:40
+msgid "Article Pages"
+msgstr ""
+
+#: themes/classic/ipad/single.php:63
+msgid "next post"
+msgstr ""
+
+#: themes/classic/ipad/single.php:66
+msgid "previous post"
+msgstr ""
+
+#: themes/classic/ipad/single.php:74
+msgid "Share or Save This Post"
+msgstr ""
+
+#: themes/classic/ipad/single.php:77
+msgid "Share Or Save"
+msgstr ""
+
+#: themes/classic/ipad/single.php:81 themes/classic/iphone/single.php:86
+msgid "Share on Twitter"
+msgstr ""
+
+#: themes/classic/ipad/single.php:82 themes/classic/iphone/single.php:89
+msgid "Share on Facebook"
+msgstr ""
+
+#: themes/classic/ipad/single.php:83 themes/classic/iphone/single.php:96
+msgid "Save to Del.icio.us"
+msgstr ""
+
+#: themes/classic/ipad/single.php:85
+msgid "Check out this post:"
+msgstr ""
+
+#: themes/classic/ipad/single.php:85 themes/classic/iphone/single.php:93
+msgid "Share via E-Mail"
+msgstr ""
+
+#: themes/classic/ipad/single.php:86 themes/classic/iphone/single.php:82
+msgid "Save to Instapaper"
+msgstr ""
+
+#: themes/classic/ipad/wptouch-archives.php:11
+#: themes/classic/iphone/wptouch-archives.php:13
+#: themes/skeleton/iphone/wptouch-archives.php:13
+msgid "Browse Last 15 Posts"
+msgstr ""
+
+#: themes/classic/ipad/wptouch-archives.php:16
+#: themes/classic/iphone/wptouch-archives.php:18
+#: themes/skeleton/iphone/wptouch-archives.php:18
+msgid "Browse Last 12 Months"
+msgstr ""
+
+#: themes/classic/iphone/attachment.php:49
+msgid "Previous Image"
+msgstr ""
+
+#: themes/classic/iphone/attachment.php:50
+msgid "Next Image"
+msgstr ""
+
+#: themes/classic/iphone/attachment.php:56
+#, php-format
+msgid ""
+"<span class=\"left clearfix\"><a href=\"%6$s\" title=\"Return to %7$s\" rel="
+"\"gallery\">Back to the Post</a></span>"
+msgstr ""
+
+#: themes/classic/iphone/blog-loop.php:77
+#: themes/classic/iphone/blog-loop.php:82
+msgid "Comment On This Article"
+msgstr ""
+
+#: themes/classic/iphone/blog-loop.php:87
+msgid "Read This Article"
+msgstr ""
+
+#: themes/classic/iphone/comments.php:50
+#: themes/skeleton/iphone/comments.php:52
+msgid "Comments are closed"
+msgstr ""
+
+#: themes/classic/iphone/comments.php:62
+#: themes/skeleton/iphone/comments.php:61
+msgid "Leave a Reply"
+msgstr ""
+
+#: themes/classic/iphone/comments.php:62
+#: themes/skeleton/iphone/comments.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: themes/classic/iphone/comments.php:83
+#: themes/skeleton/iphone/comments.php:87
+msgid "Website"
+msgstr ""
+
+#: themes/classic/iphone/footer.php:8 themes/skeleton/iphone/footer.php:7
+msgid "Mobile Theme"
+msgstr ""
+
+#: themes/classic/iphone/functions.php:223
+msgid "No Comments Yet"
+msgstr ""
+
+#: themes/classic/iphone/functions.php:224
+msgid "1 Comment"
+msgstr ""
+
+#: themes/classic/iphone/functions.php:225
+msgid "% Comments"
+msgstr ""
+
+#: themes/classic/iphone/functions.php:249
+#, php-format
+msgid "%1$s - %2$s <span class=\"meta-sep\"></span>"
+msgstr ""
+
+#: themes/classic/iphone/functions.php:261
+msgid "Reply."
+msgstr ""
+
+#: themes/classic/iphone/header.php:17
+msgid "Turn it on in browser settings to view this mobile website."
+msgstr ""
+
+#: themes/classic/iphone/header.php:30
+msgid "Message sent successfully."
+msgstr ""
+
+#: themes/classic/iphone/header.php:32
+msgid "Your message failed to send. Please try again."
+msgstr ""
+
+#: themes/classic/iphone/header.php:60 themes/classic/iphone/tab-bar.php:9
+#: themes/classic/iphone/tab-bar.php:34 themes/skeleton/iphone/tab-bar.php:7
+msgid "Menu"
+msgstr ""
+
+#: themes/classic/iphone/header.php:73 themes/classic/iphone/tab-bar.php:5
+#: themes/skeleton/iphone/tab-bar.php:4
+msgid "Search"
+msgstr ""
+
+#: themes/classic/iphone/single.php:37 themes/skeleton/iphone/single.php:29
+msgid "Skip to Responses"
+msgstr ""
+
+#: themes/classic/iphone/single.php:80
+msgid "Share Article"
+msgstr ""
+
+#: themes/classic/iphone/single.php:93
+msgid "Check out this article:"
+msgstr ""
+
+#: themes/classic/iphone/single.php:111 themes/skeleton/iphone/single.php:51
+msgid "Back to Top"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:11 themes/classic/iphone/tab-bar.php:41
+msgid "Top Categories"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:15 themes/classic/iphone/tab-bar.php:48
+msgid "Top Tags"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:19 themes/skeleton/iphone/tab-bar.php:15
+msgid "Message"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:23 themes/skeleton/iphone/tab-bar.php:17
+msgid "Account"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:27 themes/classic/iphone/tab-bar.php:116
+msgid "Twitter"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:55 themes/skeleton/iphone/tab-bar.php:41
+msgid "Send a Message"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:75
+msgid "My Account"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:88
+msgid "Account Login"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:106
+msgid "Register for an account"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:107
+msgid "Reset password"
+msgstr ""
+
+#: themes/classic/iphone/tab-bar.php:136
+#, php-format
+msgid "Follow @%s on Twitter"
+msgstr ""
+
+#: themes/skeleton/iphone/comments.php:18
+msgid "One Response"
+msgstr ""
+
+#: themes/skeleton/iphone/comments.php:93
+msgid "Submit Comment"
+msgstr ""
+
+#: themes/skeleton/iphone/footer.php:7
+msgid "Switch To Regular Theme"
+msgstr ""
+
+#: themes/skeleton/iphone/header.php:17
+msgid "Turn it on in browser settings to view this rich mobile website."
+msgstr ""
+
+#: themes/skeleton/iphone/header.php:28
+msgid "menu list image"
+msgstr ""
+
+#: themes/skeleton/iphone/header.php:40
+msgid "Go"
+msgstr ""
+
+#: themes/skeleton/iphone/header.php:61
+msgid "Push message sent successfully."
+msgstr ""
+
+#: themes/skeleton/iphone/header.php:63
+msgid "Your push message failed. Please try again."
+msgstr ""
+
+#: themes/skeleton/root-functions.php:73
+msgid "WordPress Thumbnails"
+msgstr ""
+
+#: themes/skeleton/root-functions.php:86
+msgid "Enable AJAX \"Load More\" link"
+msgstr ""
+
+#: themes/skeleton/root-functions.php:89
+msgid "Theme background image"
+msgstr ""
+
+#: themes/skeleton/root-functions.php:89
+msgid "Choose a background tile for your theme."
+msgstr ""
+
+#: themes/skeleton/root-functions.php:101
+msgid "You can choose between calendar icons or post thumbnails."
+msgstr ""
+
+#: themes/skeleton/root-functions.php:103
+msgid "Menu Options"
+msgstr ""
+
+#: themes/skeleton/root-functions.php:107
+msgid "Show Archives template in menu"
+msgstr ""
+
+#: themes/skeleton/root-functions.php:108
+msgid "Show Links template in menu"
+msgstr ""
+
+#: themes/skeleton/root-functions.php:114
+msgid "Default User Agents"
+msgstr ""
+
+#: themes/skeleton/root-functions.php:118
+msgid "Custom User Agents"
+msgstr ""
+
+#: themes/skeleton/root-functions.php:126
+msgid "Use startup splash screen image"
+msgstr ""
+
+#: themes/skeleton/root-functions.php:126
+msgid ""
+"When checked WPtouch will show the theme startup image while in web-app mode."
+msgstr ""
+
+#: themes/skeleton/root-functions.php:127
+msgid ""
+"The startup splash screen image is located inside this theme folder at: /"
+"iphone/images/startup.png "
+msgstr ""
+
+#: themes/skeleton/root-functions.php:128
+msgid "Status Bar Color"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://bravenewcode.com/wptouch-pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WPtouch Pro helps you build a rich mobile theme for your site tailored for "
+"<a href=\"http://www.apple.com/iphone/\">Apple iPhone</a> &amp; <a href="
+"\"http://www.apple.com/ipodtouch/\">iPod touch</a> <a href=\"http://www."
+"apple.com/ipad/\">iPad</a>, <a href=\"http://www.android.com/\">Google "
+"Android</a>, <a href=\"http://www.blackberry.com/\">Blackberry OS6+</a> and "
+"other touch mobile devices."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dale Mugford & Duane Storey (BraveNewCode)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.bravenewcode.com"
+msgstr ""

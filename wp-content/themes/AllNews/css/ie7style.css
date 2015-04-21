@@ -1,0 +1,32 @@
+#all_content{
+display: none;
+}
+
+#browser{
+display: block;
+margin: 150px auto 0 auto;
+}
+
+#browser h1{
+display: block;
+font-size: 30px;
+text-align: center;
+text-shadow: 1px 1px 0px #fff;
+}
+
+#browser p{
+display: block;
+font-size: 18px;
+text-align: center;
+text-shadow: 1px 1px 0px #fff;
+}
+
+#browser_ico{
+display: block;
+position: relative;
+width: 100px;
+height: 100px;
+margin: 20px auto 0 auto;
+cursor: pointer;
+background: url(../images/ie.png) no-repeat;
+}

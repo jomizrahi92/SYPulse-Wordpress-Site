@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: About</title>
+	<atom:link href="http://sypulse.org/wordpress/about/feed/" rel="self" type="application/rss+xml" />
+	<link>http://sypulse.org/wordpress</link>
+	<description>The Beat Goes On</description>
+	<lastBuildDate>Tue, 08 Nov 2011 16:45:24 -0500</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: sypulse.org @ 2013-02-16 12:19:59 by W3 Total Cache -->

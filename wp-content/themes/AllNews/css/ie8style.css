@@ -1,0 +1,181 @@
+
+
+#top_content{
+margin: 30px 0px 35px 0!important;
+}
+
+.flex-control-nav li a {
+background: url(images/ie_nav.png)!important;
+}
+
+.home_custom_post_box{
+margin: 0px 0px 10px 10px;
+}
+
+
+.home_posts_container_two{
+border: 1px solid #eee;
+display: inline-block;
+vertical-align: top;
+width: 308px;
+margin: 0px 13px 27px 0!important;
+box-shadow: 0px 2px 1px #eee;
+-webkit-box-shadow: 0px 2px 1px #eee;
+-moz-box-shadow: 0px 2px 1px #eee;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+position: absolute;
+top: -48px!important;
+right: 8px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+position: absolute;
+top: -48px!important;
+right: 34px;
+}
+
+.galleria-stage img {
+display: block;
+margin: -90px 0 0 0!important;
+}
+
+#similar-post .similar_posts {
+display: inline-block;
+float: left;
+margin-right: 25px;
+margin-bottom: 20px;
+width: 295px!important;
+vertical-align: top;
+}
+
+
+.post_three_column .car_view{
+height: 110px;
+}
+
+.post .car_view{
+width: 240px;
+height: 140px;
+}
+
+.post_one_column .car_view {
+width: 240px;
+height: 140px;
+}
+
+.post_one_column .car_view img{
+width: 240px;
+height: 140px;
+margin: 0px!important;
+padding: 0px!important;
+}
+
+.post_mini_one_column .car_view{
+width: 100px!important;
+height: 70px!important;
+}
+
+.post_mini_one_column .car_view img{
+margin: 0px!important;
+padding: 0px!important;
+}
+
+.single_post_full .post_three_column .car_view{
+border: 4px solid #e9e9e9;
+height: 120px!important;
+float: left;
+position: relative;
+text-align: center;
+cursor: default;
+display: inline-block;
+box-shadow: none!important;
+padding: 0px!important;
+}
+
+.divider_right_shadow{
+margin: 8px -25px 0px 0px;
+}
+
+.divider_left_shadow{
+margin: 8px 0px 0px -25px;
+}
+
+.single_post_full .post_two_column img {
+margin-bottom: 0px!important;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 978px){
+
+.galleria-stage img {
+display: block;
+margin: -40px 0 0 0!important;
+}
+
+.post .car_view{
+width: 170px;
+height: 98px;
+}
+
+.post_one_column .car_view {
+width: 180px;
+height: 110px;
+}
+
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width:767px) {
+
+.galleria-stage img {
+display: block;
+margin: -40px 0 0 0!important;
+}
+
+
+.post .car_view{
+width: 170px;
+height: 99px;
+}
+
+.post_one_column .car_view {
+width: 180px;
+height: 110px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 479px) {
+
+.galleria-stage img {
+display: block;
+margin: -20px 0 0 0!important;
+}
+
+.post_one_column .car_view {
+width: 100px;
+height: 70px;
+}
+
+.post_three_column .car_view{
+height: 110px!important;
+}
+
+.single_post_full .post_three_column .car_view{
+border: 4px solid #e9e9e9;
+height: 160px!important;
+float: left;
+position: relative;
+text-align: center;
+cursor: default;
+display: inline-block;
+box-shadow: none!important;
+padding: 0px!important;
+}
+
+}
